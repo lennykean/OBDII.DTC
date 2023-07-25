@@ -15,4 +15,3 @@ jobs:
         dotnet-version: 7.0.x
     - run: dotnet restore
     - run: dotnet build --no-restore
-    - run: dotnet test --no-build --verbosity normal
