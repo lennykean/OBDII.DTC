@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <PropertyGroup>
+    <Description>Categorized OBDII Diagnostic Trouble Codes (DTCs)</Description>
     <PackageProjectUrl>https://github.com/lennykean/OBDII.DTC</PackageProjectUrl>
     <RepositoryUrl>https://github.com/lennykean/OBDII.DTC</RepositoryUrl>
     <RepositoryType>git</RepositoryType>
