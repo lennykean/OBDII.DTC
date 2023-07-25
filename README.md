@@ -1,4 +1,9 @@
 # OBDII.DTC
+
+[![.github/workflows/build.yml](https://github.com/lennykean/OBDII.DTC/actions/workflows/build.yml/badge.svg)](https://github.com/lennykean/OBDII.DTC/actions/workflows/build.yml)
+[![.github/workflows/publish.yml](https://github.com/lennykean/OBDII.DTC/actions/workflows/publish.yml/badge.svg)](https://github.com/lennykean/OBDII.DTC/actions/workflows/publish.yml)
+[![UnitsNet.Metadata](https://img.shields.io/nuget/v/OBDII.DTC.svg)](https://www.nuget.org/packages/OBDII.DTC/)
+
 The OBDII.DTC is a .NET standard library that provides a collection of generic (non-manufacturer specific) categorized On-board Diagnostics II (OBDII) Diagnostic Trouble Codes (DTCs) along with code descriptions. DTCs are categorised as Powertrain (P codes), Chassis (C codes), Body (B codes), or Network Communication (U codes). Each code has a hex value based on its category as defined in ISO[^1] and SAE[^2] standards, Powertrain (0x0000 - 0x3FFF), Chassis (0x4000 - 0x7FFF), Body (0x8000 - 0xBFFF), Network Communication (0xC000 - 0xFFFF). 
 
 [^1]: [ISO 15031](https://www.iso.org/standard/64636.html)
