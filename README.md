@@ -45,7 +45,7 @@ Console.WriteLine(code.IsManufacturerCode(Manufacturers.Honda)); // Outputs: Tru
 The library and NUnit tests are in `src/OBDII.DTC` and `src/OBDII.DTC.Test`. Run the tests with the .NET 10 SDK:
 
 ```sh
-dotnet test --configuration Release
+dotnet test src/OBDII.DTC.sln --configuration Release
 ```
 
 ## Contributions
