@@ -21743,6 +21743,12 @@ public enum DTC
     [Category(Categories.Powertrain), Description("Variable Valve Timing System Malfunction Bank 1")]
     P1349 = 0x1349,
     /// <summary>
+    /// Crankshaft Signal Diagnose
+    /// </summary>
+    [Category(Categories.Powertrain), Description("Crankshaft Signal Diagnose")]
+    [Manufacturer(Manufacturers.Honda, "Crankshaft Signal Diagnose")]
+    P134B = 0x134B,
+    /// <summary>
     /// Ignition Control System
     /// </summary>
     [Category(Categories.Powertrain), Description("Ignition Control System")]
@@ -23962,6 +23968,12 @@ public enum DTC
     /// </summary>
     [Category(Categories.Powertrain), Description("Electric A/C Compressor Speed Request Signal Message Counter Incorrect")]
     P15C6 = 0x15C6,
+    /// <summary>
+    /// Brake Booster Pressure Sensor A Characteristic High Voltage
+    /// </summary>
+    [Category(Categories.Powertrain), Description("Brake Booster Pressure Sensor A Characteristic High Voltage")]
+    [Manufacturer(Manufacturers.Honda, "Brake Booster Pressure Sensor A Characteristic High Voltage")]
+    P15C7 = 0x15C7,
     /// <summary>
     /// Electric A/C Compressor Data Message Counter Incorrect
     /// </summary>
@@ -27977,6 +27989,12 @@ public enum DTC
     /// </summary>
     [Category(Categories.Powertrain), Description("Drive Motor 1 Control Module Hybrid/EV Battery Voltage System Isolation Lost")]
     P1AF0 = 0x1AF0,
+    /// <summary>
+    /// Input Power A Voltage Correlation Abnormality
+    /// </summary>
+    [Category(Categories.Powertrain), Description("Input Power A Voltage Correlation Abnormality")]
+    [Manufacturer(Manufacturers.Honda, "Input Power A Voltage Correlation Abnormality")]
+    P1AF1 = 0x1AF1,
     /// <summary>
     /// Drive Motor 2 Control Module Hybrid/EV Battery Voltage System Isolation Lost
     /// </summary>
