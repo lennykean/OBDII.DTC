@@ -1,0 +1,43 @@
+name: CI
+
+on:
+  push:
+    branches:
+    - '**'
+    tags:
+    - 'v*'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v5
+    - uses: actions/setup-dotnet@v5
+      with:
+        dotnet-version: 10.0.x
+    - run: dotnet restore
+    - run: dotnet build --configuration Release --no-restore
+    - run: dotnet test --configuration Release --no-build
+
+  publish:
+    if: startsWith(github.ref, 'refs/tags/')
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      id-token: write
+    steps:
+    - uses: actions/checkout@v5
+    - uses: actions/setup-dotnet@v5
+      with:
+        dotnet-version: 10.0.x
+    - name: Set version
+      run: |
+        VERSION=${GITHUB_REF_NAME#v}
+        echo "VERSION=$VERSION" >> "$GITHUB_ENV"
+    - run: dotnet pack src/OBDII.DTC/OBDII.DTC.csproj --configuration Release -p:Version=$VERSION --output artifacts
+    - uses: NuGet/login@v1
+      id: login
+      with:
+        user: lennykean
+    - run: dotnet nuget push "artifacts/*.nupkg" --api-key ${{ steps.login.outputs.NUGET_API_KEY }} --source https://api.nuget.org/v3/index.json --skip-duplicate
