@@ -18646,6 +18646,7 @@ public enum DTC
     /// Variable Valve Timing Self-Learning Function Stops Not Learned
     /// </summary>
     [Category(Categories.Powertrain), Description("Variable Valve Timing Self-Learning Function Stops Not Learned")]
+    [Manufacturer(Manufacturers.Honda, "Variable Valve Timing Control (VTC) B Advance Malfunction")]
     P101A = 0x101A,
     /// <summary>
     /// Glow Plug Control Module Temperature Sensor 2 Circuit Low Voltage
@@ -18676,11 +18677,13 @@ public enum DTC
     /// Valvetronic Eccentric Shaft Sensor Power Supply
     /// </summary>
     [Category(Categories.Powertrain), Description("Valvetronic Eccentric Shaft Sensor Power Supply")]
+    [Manufacturer(Manufacturers.Honda, "Valve Pause System Stuck Off")]
     P1020 = 0x1020,
     /// <summary>
     /// Engine Oil Control Valve Circuit Bank 1
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Oil Control Valve Circuit Bank 1")]
+    [Manufacturer(Manufacturers.Honda, "Valve Pause System Stuck On")]
     P1021 = 0x1021,
     /// <summary>
     /// Charge Air Temp Circuit Low
@@ -18696,16 +18699,19 @@ public enum DTC
     /// Valvetronic Adjustment Range 
     /// </summary>
     [Category(Categories.Powertrain), Description("Valvetronic Adjustment Range ")]
+    [Manufacturer(Manufacturers.Honda, "Valve Pause System (VPS) Sticking On")]
     P1024 = 0x1024,
     /// <summary>
     /// Fuel Pressure Control Valve Mechanical Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Fuel Pressure Control Valve Mechanical Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Valve Pause System Sticking Off")]
     P1025 = 0x1025,
     /// <summary>
     /// Intake Manifold Air Control Solenoid Short To Positive
     /// </summary>
     [Category(Categories.Powertrain), Description("Intake Manifold Air Control Solenoid Short To Positive")]
+    [Manufacturer(Manufacturers.Honda, "Valve Pause System Sticking On")]
     P1026 = 0x1026,
     /// <summary>
     /// Intake Manifold Air Control Solenoid Short To Ground
@@ -19441,6 +19447,7 @@ public enum DTC
     /// Closed Loop Fueling Not Achieved Bank 1
     /// </summary>
     [Category(Categories.Powertrain), Description("Closed Loop Fueling Not Achieved Bank 1")]
+    [Manufacturer(Manufacturers.Honda, "Barometric Pressure (BARO) Sensor Circuit Range/Performance Problem")]
     P1106 = 0x1106,
     /// <summary>
     /// Barometric Pressure Sensor Circuit Low Voltage
@@ -19451,6 +19458,7 @@ public enum DTC
     /// Dual Alternator Battery Lamp Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Dual Alternator Battery Lamp Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Barometric Pressure (BARO) Sensor Circuit High Voltage")]
     P1108 = 0x1108,
     /// <summary>
     /// BARO Sensor Circuit Out of Range High
@@ -19506,6 +19514,7 @@ public enum DTC
     /// Engine Coolant Temperature Sensor Out of Self-Test Range
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Coolant Temperature Sensor Out of Self-Test Range")]
+    [Manufacturer(Manufacturers.Honda, "ECT Sensor 1 Circuit Range/Performance Problem")]
     P1116 = 0x1116,
     /// <summary>
     /// Engine Coolant Temperature Sensor Intermittent
@@ -19551,11 +19560,13 @@ public enum DTC
     /// Electric Throttle Control Actuator
     /// </summary>
     [Category(Categories.Powertrain), Description("Electric Throttle Control Actuator")]
+    [Manufacturer(Manufacturers.Honda, "Throttle Position (TP) Sensor Lower Than Expected")]
     P1121 = 0x1121,
     /// <summary>
     /// Throttle Position Sensor Circuit Intermittent Low Voltage
     /// </summary>
     [Category(Categories.Powertrain), Description("Throttle Position Sensor Circuit Intermittent Low Voltage")]
+    [Manufacturer(Manufacturers.Honda, "Throttle Position (TP) Sensor Higher Than Expected")]
     P1122 = 0x1122,
     /// <summary>
     /// Throttle Position Sensor Circuit Intermittent High Voltage
@@ -19586,11 +19597,13 @@ public enum DTC
     /// MAF Sensor Out Of Self Test Range./KOER Not Able To Complete KOER Aborted
     /// </summary>
     [Category(Categories.Powertrain), Description("MAF Sensor Out Of Self Test Range./KOER Not Able To Complete KOER Aborted")]
+    [Manufacturer(Manufacturers.Honda, "Manifold Absolute Pressure (MAP) Sensor Circuit Lower Than Expected")]
     P1128 = 0x1128,
     /// <summary>
     /// Downstream Oxygen Sensors Swapped from Bank to Bank
     /// </summary>
     [Category(Categories.Powertrain), Description("Downstream Oxygen Sensors Swapped from Bank to Bank")]
+    [Manufacturer(Manufacturers.Honda, "Manifold Absolute Pressure (MAP) Sensor Circuit Higher Than Expected")]
     P1129 = 0x1129,
     /// <summary>
     /// Engine Coolant Temperature Sensor 1 Maximum Temperature Implausible
@@ -19626,6 +19639,7 @@ public enum DTC
     /// Lack Of HO2S Switch - Adaptive Fuel At Limit
     /// </summary>
     [Category(Categories.Powertrain), Description("Lack Of HO2S Switch - Adaptive Fuel At Limit")]
+    [Manufacturer(Manufacturers.Honda, "Demand for Changing Both Secondary Heated Oxygen Sensor (Secondary HO2S) (Sensor 2) and Third Heated Oxygen Sensor (Third HO2S) (Sensor 3)")]
     P1130 = 0x1130,
     /// <summary>
     /// Lack Of HO2S Switch - Sensor Indicates Lean
@@ -19811,11 +19825,13 @@ public enum DTC
     /// Air/Fuel Ratio Sensor 1 Range/Performance Problem
     /// </summary>
     [Category(Categories.Powertrain), Description("Air/Fuel Ratio Sensor 1 Range/Performance Problem")]
+    [Manufacturer(Manufacturers.Honda, "Air/Fuel Ratio (A/F) Sensor (Sensor 1) AFS Line High Voltage/Circuit High Voltage/Range/Performance Problem")]
     P1157 = 0x1157,
     /// <summary>
     /// Lack Of Heated Oxygen Sensor Switches Bank 2 Sensor 2 Indicates Rich
     /// </summary>
     [Category(Categories.Powertrain), Description("Lack Of Heated Oxygen Sensor Switches Bank 2 Sensor 2 Indicates Rich")]
+    [Manufacturer(Manufacturers.Honda, "Air/Fuel Ratio (A/F) Sensor (Sensor 1) AFS- Terminal Low Voltage")]
     P1158 = 0x1158,
     /// <summary>
     /// Air/Fuel Ratio Sensor 1 AFS+ Terminal Low Voltage
@@ -19866,11 +19882,13 @@ public enum DTC
     /// Air/Fuel Ratio Sensor 1 Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Air/Fuel Ratio Sensor 1 Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Air/Fuel Ratio (A/F) Sensor (Sensor 1) Slow Response")]
     P1162 = 0x1162,
     /// <summary>
     /// Heated Oxygen Sensor 1 Lean Shift Monitoring Bank 2
     /// </summary>
     [Category(Categories.Powertrain), Description("Heated Oxygen Sensor 1 Lean Shift Monitoring Bank 2")]
+    [Manufacturer(Manufacturers.Honda, "Air/Fuel Ratio (A/F) Sensor (Sensor 1) Slow Response")]
     P1163 = 0x1163,
     /// <summary>
     /// Air/Fuel Ratio Sensor 1 Range/Performance Problem
@@ -19891,16 +19909,19 @@ public enum DTC
     /// Heated Rear Oxygen Sensor 2 Maximum Voltage Monitoring Bank 2
     /// </summary>
     [Category(Categories.Powertrain), Description("Heated Rear Oxygen Sensor 2 Maximum Voltage Monitoring Bank 2")]
+    [Manufacturer(Manufacturers.Honda, "Heated Oxygen Sensor 1 (Primary LAF HO2S) Heater System Malfunction")]
     P1167 = 0x1167,
     /// <summary>
     /// Closed Loop Control Function Bank 2
     /// </summary>
     [Category(Categories.Powertrain), Description("Closed Loop Control Function Bank 2")]
+    [Manufacturer(Manufacturers.Honda, "Air/Fuel Ratio (A/F) Sensor (Sensor 1) LABEL Low Voltage")]
     P1168 = 0x1168,
     /// <summary>
     /// Fuel Rail Sensor In-Range High Failure
     /// </summary>
     [Category(Categories.Powertrain), Description("Fuel Rail Sensor In-Range High Failure")]
+    [Manufacturer(Manufacturers.Honda, "Air/Fuel Ratio (A/F) Sensor (Sensor 1) LABEL High Voltage")]
     P1169 = 0x1169,
     /// <summary>
     /// O2 Signal Circuit (NOx Sensor 1)
@@ -19956,6 +19977,7 @@ public enum DTC
     /// Cam Sensor Fault
     /// </summary>
     [Category(Categories.Powertrain), Description("Cam Sensor Fault")]
+    [Manufacturer(Manufacturers.Honda, "Front A/F Sensor (Bank 2, Sensor 1) Circuit Out of Range High")]
     P1174 = 0x1174,
     /// <summary>
     /// Fuel Trim Cylinder Balance Bank 2
@@ -20026,11 +20048,13 @@ public enum DTC
     /// Linear Oxygen Sensor Reference Voltage Short To Ground
     /// </summary>
     [Category(Categories.Powertrain), Description("Linear Oxygen Sensor Reference Voltage Short To Ground")]
+    [Manufacturer(Manufacturers.Honda, "Fuel Temperature Sensor Circuit Low Voltage")]
     P1182 = 0x1182,
     /// <summary>
     /// Engine Oil Temperature Sensor Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Oil Temperature Sensor Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Fuel Temperature Sensor Circuit High Voltage")]
     P1183 = 0x1183,
     /// <summary>
     /// Engine Oil Temperature Out Of Self Test Range
@@ -20051,11 +20075,13 @@ public enum DTC
     /// Fuel Pressure Monitoring - Regulator Valve Stick
     /// </summary>
     [Category(Categories.Powertrain), Description("Fuel Pressure Monitoring - Regulator Valve Stick")]
+    [Manufacturer(Manufacturers.Honda, "FTT Sensor Circuit Low Voltage")]
     P1187 = 0x1187,
     /// <summary>
     /// Fuel Pressure Monitoring - Leakage
     /// </summary>
     [Category(Categories.Powertrain), Description("Fuel Pressure Monitoring - Leakage")]
+    [Manufacturer(Manufacturers.Honda, "FTT Sensor Circuit High Voltage")]
     P1188 = 0x1188,
     /// <summary>
     /// Fuel Pressure Monitoring - Governor Deviation at Engine speed Too high
@@ -20096,11 +20122,13 @@ public enum DTC
     /// Electronic Throttle System Limp home - Target Follow Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Electronic Throttle System Limp home - Target Follow Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "FTP Sensor Circuit Low Voltage")]
     P1192 = 0x1192,
     /// <summary>
     /// Electronic Throttle System Limp Home - Low RPM
     /// </summary>
     [Category(Categories.Powertrain), Description("Electronic Throttle System Limp Home - Low RPM")]
+    [Manufacturer(Manufacturers.Honda, "FTP Sensor Circuit High Voltage")]
     P1193 = 0x1193,
     /// <summary>
     /// Throttle Actuator Control System Limp Home-Throttle Position Sensor 2 Position Malfunction
@@ -20846,11 +20874,13 @@ public enum DTC
     /// Pedal Correlation PDS1 and PDS2
     /// </summary>
     [Category(Categories.Powertrain), Description("Pedal Correlation PDS1 and PDS2")]
+    [Manufacturer(Manufacturers.Honda, "VTEC System Malfunction")]
     P1258 = 0x1258,
     /// <summary>
     /// Immobilizer to PCM Signal Error
     /// </summary>
     [Category(Categories.Powertrain), Description("Immobilizer to PCM Signal Error")]
+    [Manufacturer(Manufacturers.Honda, "VTEC System Malfunction")]
     P1259 = 0x1259,
     /// <summary>
     /// Nitrogen Oxide Sensor Heating Heat Output Too Low During Starting
@@ -21046,31 +21076,37 @@ public enum DTC
     /// Air Fuel Ratio Sensor 1 Circuit High Voltage Detected Bank 2
     /// </summary>
     [Category(Categories.Powertrain), Description("Air Fuel Ratio Sensor 1 Circuit High Voltage Detected Bank 2")]
+    [Manufacturer(Manufacturers.Honda, "Rocker Arm Oil Pressure Sensor Stuck Low")]
     P1286 = 0x1286,
     /// <summary>
     /// Turbocharger Bypass Valve Open
     /// </summary>
     [Category(Categories.Powertrain), Description("Turbocharger Bypass Valve Open")]
+    [Manufacturer(Manufacturers.Honda, "Rocker Arm Oil Pressure Switch Circuit High Voltage")]
     P1287 = 0x1287,
     /// <summary>
     /// Cylinder Head Temp Sensor Out Of Self Test Range
     /// </summary>
     [Category(Categories.Powertrain), Description("Cylinder Head Temp Sensor Out Of Self Test Range")]
+    [Manufacturer(Manufacturers.Honda, "Rocker Arm Oil Pressure Switch Circuit Low Voltage")]
     P1288 = 0x1288,
     /// <summary>
     /// Cylinder Head Temperature Sensor Signal Greater Than Self-Test Range
     /// </summary>
     [Category(Categories.Powertrain), Description("Cylinder Head Temperature Sensor Signal Greater Than Self-Test Range")]
+    [Manufacturer(Manufacturers.Honda, "Rocker Arm Oil Pressure Sensor Stuck High")]
     P1289 = 0x1289,
     /// <summary>
     /// Cylinder Head Temperature Sensor Circuit Intermittent/Erratic
     /// </summary>
     [Category(Categories.Powertrain), Description("Cylinder Head Temperature Sensor Circuit Intermittent/Erratic")]
+    [Manufacturer(Manufacturers.Honda, "Valve Pause System (VPS) Stuck OFF")]
     P128A = 0x128A,
     /// <summary>
     /// Fuel Rail Pressure Sensor 2 Internal Performance
     /// </summary>
     [Category(Categories.Powertrain), Description("Fuel Rail Pressure Sensor 2 Internal Performance")]
+    [Manufacturer(Manufacturers.Honda, "Valve Pause System (VPS) Malfunction")]
     P128B = 0x128B,
     /// <summary>
     /// Fuel Rail Temperature Sensor 1 Signal Message Counter Incorrect
@@ -21131,11 +21167,13 @@ public enum DTC
     /// No Change In MAP Sensor Voltage
     /// </summary>
     [Category(Categories.Powertrain), Description("No Change In MAP Sensor Voltage")]
+    [Manufacturer(Manufacturers.Honda, "Electric Load Detector (ELD) Circuit Low Voltage")]
     P1297 = 0x1297,
     /// <summary>
     /// IDM Failure
     /// </summary>
     [Category(Categories.Powertrain), Description("IDM Failure")]
+    [Manufacturer(Manufacturers.Honda, "Electric Load Detector (ELD) Circuit High Voltage")]
     P1298 = 0x1298,
     /// <summary>
     /// Cylinder Head Overtemperature Protection Active
@@ -21411,6 +21449,7 @@ public enum DTC
     /// Igniter Circuit Malfunction No. 1
     /// </summary>
     [Category(Categories.Powertrain), Description("Igniter Circuit Malfunction No. 1")]
+    [Manufacturer(Manufacturers.Honda, "Random Misfire")]
     P1300 = 0x1300,
     /// <summary>
     /// Cylinder 1 Misfiring Detected
@@ -21777,6 +21816,7 @@ public enum DTC
     /// Cylinder 1 Ignition Circuit Open
     /// </summary>
     [Category(Categories.Powertrain), Description("Cylinder 1 Ignition Circuit Open")]
+    [Manufacturer(Manufacturers.Honda, "Front Ignition Coil Power Circuit Malfunction")]
     P1355 = 0x1355,
     /// <summary>
     /// Loss Of Ignition Diagnostic Module Input To PCM
@@ -22357,6 +22397,7 @@ public enum DTC
     /// EGR Valve Position Sensor Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("EGR Valve Position Sensor Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Air Pump Malfunction")]
     P1410 = 0x1410,
     /// <summary>
     /// Secondary Air Injection Downstream Flow
@@ -22382,11 +22423,13 @@ public enum DTC
     /// Air Pump Circuit Malfunction/AIR System Bank 1
     /// </summary>
     [Category(Categories.Powertrain), Description("Air Pump Circuit Malfunction/AIR System Bank 1")]
+    [Manufacturer(Manufacturers.Honda, "Air Pump Electric Current Sensor Circuit Low Voltage")]
     P1415 = 0x1415,
     /// <summary>
     /// Port Air Circuit Malfunction/AIR System Bank 2
     /// </summary>
     [Category(Categories.Powertrain), Description("Port Air Circuit Malfunction/AIR System Bank 2")]
+    [Manufacturer(Manufacturers.Honda, "Air Pump Electric Current Sensor Circuit High Voltage")]
     P1416 = 0x1416,
     /// <summary>
     /// Cylinder 7 Reactivation Control Performance
@@ -22527,6 +22570,7 @@ public enum DTC
     /// Thermostat Heater Control Circuit Failure
     /// </summary>
     [Category(Categories.Powertrain), Description("Thermostat Heater Control Circuit Failure")]
+    [Manufacturer(Manufacturers.Honda, "Battery Cell Overheating")]
     P1432 = 0x1432,
     /// <summary>
     /// Fuel Level Sensor 2 Circuit High Voltage
@@ -22537,11 +22581,13 @@ public enum DTC
     /// Diagnostic Module Tank Leakage System Fault 
     /// </summary>
     [Category(Categories.Powertrain), Description("Diagnostic Module Tank Leakage System Fault ")]
+    [Manufacturer(Manufacturers.Honda, "Voltage Converter Module High Voltage")]
     P1434 = 0x1434,
     /// <summary>
     /// Particulate Matter Sensor Control Module Temperature Sensors 1-2 Not Plausible
     /// </summary>
     [Category(Categories.Powertrain), Description("Particulate Matter Sensor Control Module Temperature Sensors 1-2 Not Plausible")]
+    [Manufacturer(Manufacturers.Honda, "Charge/Discharge Balance Malfunction")]
     P1435 = 0x1435,
     /// <summary>
     /// A/C Evaporator Air Temperature Circuit Low
@@ -22552,16 +22598,19 @@ public enum DTC
     /// A/C Evaporator Air Temperature Circuit High
     /// </summary>
     [Category(Categories.Powertrain), Description("A/C Evaporator Air Temperature Circuit High")]
+    [Manufacturer(Manufacturers.Honda, "Motor Power Inverter (MPI) Module Short Circuit")]
     P1437 = 0x1437,
     /// <summary>
     /// A/C Evaporator Air Temperature Circuit Range/Performance
     /// </summary>
     [Category(Categories.Powertrain), Description("A/C Evaporator Air Temperature Circuit Range/Performance")]
+    [Manufacturer(Manufacturers.Honda, "Motor Drive Module (MDM) Overheating Signal Circuit/Motor Drive Module (MDM) Overheating")]
     P1438 = 0x1438,
     /// <summary>
     /// Motor Drive Module Short Circuit Sensor Problem
     /// </summary>
     [Category(Categories.Powertrain), Description("Motor Drive Module Short Circuit Sensor Problem")]
+    [Manufacturer(Manufacturers.Honda, "Motor Drive Module (MDM) Short Circuit Sensor Problem/Motor Drive Module (MDM) Short Circuit")]
     P1439 = 0x1439,
     /// <summary>
     /// Reductant Control System Diagnostic Signal Message Counter Incorrect
@@ -22587,6 +22636,7 @@ public enum DTC
     /// Purge Valve Stuck Open
     /// </summary>
     [Category(Categories.Powertrain), Description("Purge Valve Stuck Open")]
+    [Manufacturer(Manufacturers.Honda, "IMA System Problem")]
     P1440 = 0x1440,
     /// <summary>
     /// Evaporative Emission Control System Leak
@@ -22612,11 +22662,13 @@ public enum DTC
     /// Purge Flow Sensor Circuit High Condition
     /// </summary>
     [Category(Categories.Powertrain), Description("Purge Flow Sensor Circuit High Condition")]
+    [Manufacturer(Manufacturers.Honda, "Bypass Control Problem")]
     P1445 = 0x1445,
     /// <summary>
     /// EVAP Canister Vent Control Valve Close
     /// </summary>
     [Category(Categories.Powertrain), Description("EVAP Canister Vent Control Valve Close")]
+    [Manufacturer(Manufacturers.Honda, "Battery Module Individual Voltage Input Deviation")]
     P1446 = 0x1446,
     /// <summary>
     /// Evaporative Emission Control System Purge Flow Monitor
@@ -22627,11 +22679,13 @@ public enum DTC
     /// EVAP Canister Vent Control Valve Open
     /// </summary>
     [Category(Categories.Powertrain), Description("EVAP Canister Vent Control Valve Open")]
+    [Manufacturer(Manufacturers.Honda, "Battery Module Overheating")]
     P1448 = 0x1448,
     /// <summary>
     /// Diagnostic Module Tank Leakage Pump Too High
     /// </summary>
     [Category(Categories.Powertrain), Description("Diagnostic Module Tank Leakage Pump Too High")]
+    [Manufacturer(Manufacturers.Honda, "Battery Module Overheating/Battery Cell Overheating/Battery Module Individual Voltage Input Deviation/Battery Module Deterioration/Battery Module Deviation")]
     P1449 = 0x1449,
     /// <summary>
     /// Evaporative Emission System Purge Vapor Line Restricted/Blocked
@@ -22677,6 +22731,7 @@ public enum DTC
     /// Exhaust Gas Temperature Sensor Short 1 to Ground
     /// </summary>
     [Category(Categories.Powertrain), Description("Exhaust Gas Temperature Sensor Short 1 to Ground")]
+    [Manufacturer(Manufacturers.Honda, "Fuel Tank Pressure (FTP) Sensor Range/Performance Problem")]
     P1454 = 0x1454,
     /// <summary>
     /// Exhaust Gas Temperature Sensor 1 Range/Performance
@@ -22687,16 +22742,19 @@ public enum DTC
     /// Fuel Tank Temperature Sensor Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Fuel Tank Temperature Sensor Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Evaporative Emissions (EVAP) Control System Leakage (Fuel Tank System)")]
     P1456 = 0x1456,
     /// <summary>
     /// Unable To Pull Vacuum In Tank
     /// </summary>
     [Category(Categories.Powertrain), Description("Unable To Pull Vacuum In Tank")]
+    [Manufacturer(Manufacturers.Honda, "Evaporative Emissions (EVAP) Control System Leakage (EVAP Canister System)")]
     P1457 = 0x1457,
     /// <summary>
     /// Exhaust Gas Temperature Sensor 2 Short to Ground
     /// </summary>
     [Category(Categories.Powertrain), Description("Exhaust Gas Temperature Sensor 2 Short to Ground")]
+    [Manufacturer(Manufacturers.Honda, "Fuel Tank Pressure (FTP) Sensor Circuit Range/Performance Problem")]
     P1458 = 0x1458,
     /// <summary>
     /// EVAP Emission Purge Flow Switch Malfunction
@@ -22717,11 +22775,13 @@ public enum DTC
     /// Fuel Tank Pressure Sensor Range/Performance Problem
     /// </summary>
     [Category(Categories.Powertrain), Description("Fuel Tank Pressure Sensor Range/Performance Problem")]
+    [Manufacturer(Manufacturers.Honda, "EVAP System Purge Flow Malfunction")]
     P145C = 0x145C,
     /// <summary>
     /// Fan System Component Error 'B'
     /// </summary>
     [Category(Categories.Powertrain), Description("Fan System Component Error 'B'")]
+    [Manufacturer(Manufacturers.Honda, "Evaporative Emission (EVAP) System Purge Flow Malfunction at turbocharging")]
     P145D = 0x145D,
     /// <summary>
     /// PCV Heater Control 'B' Circuit
@@ -22912,6 +22972,7 @@ public enum DTC
     /// Secondary Switch Solenoid Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Secondary Switch Solenoid Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Exhaust Gas Recirculation (EGR) Valve Insufficient Lift")]
     P1491 = 0x1491,
     /// <summary>
     /// Battery Temperature Sensor Voltage Too high
@@ -23112,6 +23173,7 @@ public enum DTC
     /// Idle Speed Control Actuator Signal Low
     /// </summary>
     [Category(Categories.Powertrain), Description("Idle Speed Control Actuator Signal Low")]
+    [Manufacturer(Manufacturers.Honda, "Positive Crankcase Ventilation (PCV) Air Leakage")]
     P1505 = 0x1505,
     /// <summary>
     /// Idle Air Control Overspeed Error
@@ -23132,6 +23194,7 @@ public enum DTC
     /// Idle Air Control Valve System High RPM
     /// </summary>
     [Category(Categories.Powertrain), Description("Idle Air Control Valve System High RPM")]
+    [Manufacturer(Manufacturers.Honda, "Idle Air Control Valve (IACV) Circuit Failure")]
     P1509 = 0x1509,
     /// <summary>
     /// Transmission Output Speed Signal Circuit
@@ -23207,6 +23270,7 @@ public enum DTC
     /// Intake Manifold Runner Control Stuck Closed
     /// </summary>
     [Category(Categories.Powertrain), Description("Intake Manifold Runner Control Stuck Closed")]
+    [Manufacturer(Manufacturers.Honda, "Idle Air Control Valve (IACV) Circuit Malfunction")]
     P1519 = 0x1519,
     /// <summary>
     /// Intake Manifold Runner Controller Performance
@@ -23242,16 +23306,19 @@ public enum DTC
     /// Camshaft Position Control Bank 2 Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Camshaft Position Control Bank 2 Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Brake Booster Pressure Sensor Circuit Low Voltage")]
     P1522 = 0x1522,
     /// <summary>
     /// Electronic Throttle Control Throttle Return
     /// </summary>
     [Category(Categories.Powertrain), Description("Electronic Throttle Control Throttle Return")]
+    [Manufacturer(Manufacturers.Honda, "Brake Booster Pressure Sensor Circuit High Voltage")]
     P1523 = 0x1523,
     /// <summary>
     /// Oil Pressure Out Of Range Camshaft Advance / Retard Disable
     /// </summary>
     [Category(Categories.Powertrain), Description("Oil Pressure Out Of Range Camshaft Advance / Retard Disable")]
+    [Manufacturer(Manufacturers.Honda, "Brake Booster Pressure Sensor Range/Performance Problem")]
     P1524 = 0x1524,
     /// <summary>
     /// Camshaft Position Actuator 'A' Control Open Circuit Bank 1
@@ -23377,11 +23444,13 @@ public enum DTC
     /// Fuel Pump Relay Circuit Open
     /// </summary>
     [Category(Categories.Powertrain), Description("Fuel Pump Relay Circuit Open")]
+    [Manufacturer(Manufacturers.Honda, "Climate Control Unit Signal Circuit Low Voltage")]
     P1541 = 0x1541,
     /// <summary>
     /// Pedal Position Sensor Electrical
     /// </summary>
     [Category(Categories.Powertrain), Description("Pedal Position Sensor Electrical")]
+    [Manufacturer(Manufacturers.Honda, "Climate Control Unit Signal Circuit High Voltage")]
     P1542 = 0x1542,
     /// <summary>
     /// Throttle Actuation Potentiometer Signal Too Low
@@ -23417,16 +23486,19 @@ public enum DTC
     /// Intake Manifold Communication Control Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Intake Manifold Communication Control Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Charging System High Voltage")]
     P1549 = 0x1549,
     /// <summary>
     /// Intake Air Heater Feedback Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("Intake Air Heater Feedback Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Battery Sensor Internal Failure")]
     P154A = 0x154A,
     /// <summary>
     /// Intake Air Heater Voltage Signal Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("Intake Air Heater Voltage Signal Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Battery Sensor Characteristic Abnormal")]
     P154B = 0x154B,
     /// <summary>
     /// Intake Air Heater Current Signal Circuit
@@ -23557,6 +23629,7 @@ public enum DTC
     /// Speed Control Command Switch Out of Range High
     /// </summary>
     [Category(Categories.Powertrain), Description("Speed Control Command Switch Out of Range High")]
+    [Manufacturer(Manufacturers.Honda, "Motor Commutation Signal Problem")]
     P1565 = 0x1565,
     /// <summary>
     /// Speed Control Command Switch Out of Range Low
@@ -23572,11 +23645,13 @@ public enum DTC
     /// Cruise Servo Stroke Greater Than Commanded In Cruise
     /// </summary>
     [Category(Categories.Powertrain), Description("Cruise Servo Stroke Greater Than Commanded In Cruise")]
+    [Manufacturer(Manufacturers.Honda, "Battery Module Individual Voltage Input Problem/Battery Module Temperature Signal Circuit Problem/Battery Cell Temperature Signal Circuit Problem")]
     P1568 = 0x1568,
     /// <summary>
     /// Cruise Servo Stroke High While Not In Cruise
     /// </summary>
     [Category(Categories.Powertrain), Description("Cruise Servo Stroke High While Not In Cruise")]
+    [Manufacturer(Manufacturers.Honda, "Battery Cell Temperature Signal Circuit Malfunction")]
     P1569 = 0x1569,
     /// <summary>
     /// Idle Throttle Valve Actuator 1 Short To Ground
@@ -23597,6 +23672,7 @@ public enum DTC
     /// Engine control Module Locked
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine control Module Locked")]
+    [Manufacturer(Manufacturers.Honda, "Battery Module Individual Voltage Problem")]
     P1570 = 0x1570,
     /// <summary>
     /// Traction Control Desired Torque Out Of Range
@@ -23607,6 +23683,7 @@ public enum DTC
     /// Brake Pedal Switch Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Brake Pedal Switch Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Motor Drive Module (MDM) Temperature Signal Circuit Low/High Input")]
     P1572 = 0x1572,
     /// <summary>
     /// Throttle Position Not Available
@@ -23617,21 +23694,25 @@ public enum DTC
     /// ASCD Vehicle Speed Sensor
     /// </summary>
     [Category(Categories.Powertrain), Description("ASCD Vehicle Speed Sensor")]
+    [Manufacturer(Manufacturers.Honda, "Battery Module Temperature Signal Circuit Malfunction")]
     P1574 = 0x1574,
     /// <summary>
     /// Pedal Position Out of Self Test Range
     /// </summary>
     [Category(Categories.Powertrain), Description("Pedal Position Out of Self Test Range")]
+    [Manufacturer(Manufacturers.Honda, "Motor Power Inverter (MPI) Module Voltage Malfunction")]
     P1575 = 0x1575,
     /// <summary>
     /// Brake Booster Vacuum Sensor Circuit High Voltage
     /// </summary>
     [Category(Categories.Powertrain), Description("Brake Booster Vacuum Sensor Circuit High Voltage")]
+    [Manufacturer(Manufacturers.Honda, "Motor Drive Module (MDM) Voltage Signal Circuit Low/High Input/Motor Drive Module (MDM) Voltage Problem")]
     P1576 = 0x1576,
     /// <summary>
     /// Brake Booster Vacuum Sensor Circuit Low Input
     /// </summary>
     [Category(Categories.Powertrain), Description("Brake Booster Vacuum Sensor Circuit Low Input")]
+    [Manufacturer(Manufacturers.Honda, "High Voltage Detection Signal Circuit Problem")]
     P1577 = 0x1577,
     /// <summary>
     /// Brake Booster Vacuum Sensor Circuit Low Vacuum
@@ -23667,36 +23748,43 @@ public enum DTC
     /// Cruise Move Circuit Low Voltage
     /// </summary>
     [Category(Categories.Powertrain), Description("Cruise Move Circuit Low Voltage")]
+    [Manufacturer(Manufacturers.Honda, "Battery Current Circuit Problem")]
     P1580 = 0x1580,
     /// <summary>
     /// Cruise Control Module Move Circuit High Input Conditions
     /// </summary>
     [Category(Categories.Powertrain), Description("Cruise Control Module Move Circuit High Input Conditions")]
+    [Manufacturer(Manufacturers.Honda, "Motor Power Inverter (MPI) Module Current Signal Circuit Low/High Input/Motor Power Inverter (MPI) Module Current Signal Circuit Problem")]
     P1581 = 0x1581,
     /// <summary>
     /// Electronic Throttle Monitor Data Available
     /// </summary>
     [Category(Categories.Powertrain), Description("Electronic Throttle Monitor Data Available")]
+    [Manufacturer(Manufacturers.Honda, "Motor Current U Phase Signal Circuit Low/High Input")]
     P1582 = 0x1582,
     /// <summary>
     /// Electronic Throttle Monitor Cruise Disable
     /// </summary>
     [Category(Categories.Powertrain), Description("Electronic Throttle Monitor Cruise Disable")]
+    [Manufacturer(Manufacturers.Honda, "Motor Current V Phase Signal Circuit Low/High Input")]
     P1583 = 0x1583,
     /// <summary>
     /// Throttle Control Unit Input Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Throttle Control Unit Input Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Motor Current W Phase Signal Circuit Low/High Input")]
     P1584 = 0x1584,
     /// <summary>
     /// Cruise Control Inhibit Output Circuit Conditions
     /// </summary>
     [Category(Categories.Powertrain), Description("Cruise Control Inhibit Output Circuit Conditions")]
+    [Manufacturer(Manufacturers.Honda, "Motor Current Signal Circuit Problem")]
     P1585 = 0x1585,
     /// <summary>
     /// MT/AT Encoding Signal Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("MT/AT Encoding Signal Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Motor Power Inverter (MPI) Module Current Signal/Battery Current Signal Circuit Problem")]
     P1586 = 0x1586,
     /// <summary>
     /// CAN Communication Error MT/AT Recognition Error
@@ -23852,11 +23940,13 @@ public enum DTC
     /// Engine Oil Pressure Too High Before Start
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Oil Pressure Too High Before Start")]
+    [Manufacturer(Manufacturers.Honda, "U Phase Motor Current Sensor Circuit Malfunction")]
     P15A6 = 0x15A6,
     /// <summary>
     /// Engine Oil Pressure Too Low Before Start
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Oil Pressure Too Low Before Start")]
+    [Manufacturer(Manufacturers.Honda, "V Phase Motor Current Sensor Circuit Malfunction")]
     P15A7 = 0x15A7,
     /// <summary>
     /// W Phase Motor Current Sensor Circuit Malfunction
@@ -23939,6 +24029,12 @@ public enum DTC
     [Category(Categories.Powertrain), Description("Electric Vacuum Pump Operating Time Exceeded")]
     P15BC = 0x15BC,
     /// <summary>
+    /// Cylinder Pause Signal 2 Malfunction
+    /// </summary>
+    [Category(Categories.Powertrain), Description("Cylinder Pause Signal 2 Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Cylinder Pause Signal 2 Malfunction")]
+    P15BD = 0x15BD,
+    /// <summary>
     /// Camshaft Position Sensor Signal Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Camshaft Position Sensor Signal Malfunction")]
@@ -23962,6 +24058,7 @@ public enum DTC
     /// Engine Coolant Bypass Valve Position Sensor Performance - Unexpected Position Change Detected
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Coolant Bypass Valve Position Sensor Performance - Unexpected Position Change Detected")]
+    [Manufacturer(Manufacturers.Honda, "Brake Booster Pressure Sensor A Characteristic Low Voltage")]
     P15C5 = 0x15C5,
     /// <summary>
     /// Electric A/C Compressor Speed Request Signal Message Counter Incorrect
@@ -23983,6 +24080,7 @@ public enum DTC
     /// Electric A/C Compressor Status Message Counter Incorrect
     /// </summary>
     [Category(Categories.Powertrain), Description("Electric A/C Compressor Status Message Counter Incorrect")]
+    [Manufacturer(Manufacturers.Honda, "Brake Booster Pressure Sensor A Output Voltage Locked")]
     P15C9 = 0x15C9,
     /// <summary>
     /// Electric A/C Compressor Sensors Signal Message Counter Incorrect
@@ -24173,11 +24271,13 @@ public enum DTC
     /// ECM BATT Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("ECM BATT Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "IMA System Malfunction")]
     P1600 = 0x1600,
     /// <summary>
     /// Serial Communication Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Serial Communication Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "IMA System Malfunction")]
     P1601 = 0x1601,
     /// <summary>
     /// Engine Control Module Supply Voltage Low From Battery
@@ -24368,6 +24468,7 @@ public enum DTC
     /// Theft Deterrent Start Enable Signal Not Received
     /// </summary>
     [Category(Categories.Powertrain), Description("Theft Deterrent Start Enable Signal Not Received")]
+    [Manufacturer(Manufacturers.Honda, "Battery Current Sensor Circuit Malfunction")]
     P1629 = 0x1629,
     /// <summary>
     /// Remote Vehicle Speed Limiting Signal Message Counter Incorrect
@@ -24398,6 +24499,7 @@ public enum DTC
     /// Theft Deterrent Learn Mode Active
     /// </summary>
     [Category(Categories.Powertrain), Description("Theft Deterrent Learn Mode Active")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Transmission Control Module (TCM)")]
     P1630 = 0x1630,
     /// <summary>
     /// Theft Deterrent Start Enable Signal Not Correct
@@ -24418,16 +24520,19 @@ public enum DTC
     /// Ignition 1 Power Circuit Low Voltage
     /// </summary>
     [Category(Categories.Powertrain), Description("Ignition 1 Power Circuit Low Voltage")]
+    [Manufacturer(Manufacturers.Honda, "Motor Power Inverter (MPI) Module Signal Circuit Malfunction")]
     P1634 = 0x1634,
     /// <summary>
     /// Tire / Axle Ratio Out of Acceptable Range
     /// </summary>
     [Category(Categories.Powertrain), Description("Tire / Axle Ratio Out of Acceptable Range")]
+    [Manufacturer(Manufacturers.Honda, "Battery Condition Monitor (BCM) Module Problem")]
     P1635 = 0x1635,
     /// <summary>
     /// Inductive Signature Chip Communication Error
     /// </summary>
     [Category(Categories.Powertrain), Description("Inductive Signature Chip Communication Error")]
+    [Manufacturer(Manufacturers.Honda, "Motor Power Inverter (MPI) Module Internal Circuit Malfunction")]
     P1636 = 0x1636,
     /// <summary>
     /// Generator L-Terminal Circuit
@@ -24443,6 +24548,7 @@ public enum DTC
     /// Vehicle ID Block Corrupted Or Not Programmed
     /// </summary>
     [Category(Categories.Powertrain), Description("Vehicle ID Block Corrupted Or Not Programmed")]
+    [Manufacturer(Manufacturers.Honda, "MOTB Signal Circuit Malfunction")]
     P1639 = 0x1639,
     /// <summary>
     /// Secondary Generator Control Circuit
@@ -24468,46 +24574,55 @@ public enum DTC
     /// Output Driver Module 'A' Error Conditions
     /// </summary>
     [Category(Categories.Powertrain), Description("Output Driver Module 'A' Error Conditions")]
+    [Manufacturer(Manufacturers.Honda, "ACTTRQ Motor Torque Signal Circuit Low Input")]
     P1640 = 0x1640,
     /// <summary>
     /// Cooling Fan Relay 1 Control Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("Cooling Fan Relay 1 Control Circuit")]
+    [Manufacturer(Manufacturers.Honda, "ACTTRQ Motor Torque Signal Circuit High Input")]
     P1641 = 0x1641,
     /// <summary>
     /// Fan Control Relay 2 and 3 Control Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("Fan Control Relay 2 and 3 Control Circuit")]
+    [Manufacturer(Manufacturers.Honda, "QBATT Battery Signal Circuit Low Input")]
     P1642 = 0x1642,
     /// <summary>
     /// Wait To Start Lamp Control Circuit Conditions
     /// </summary>
     [Category(Categories.Powertrain), Description("Wait To Start Lamp Control Circuit Conditions")]
+    [Manufacturer(Manufacturers.Honda, "QBATT Battery Signal Circuit High Input")]
     P1643 = 0x1643,
     /// <summary>
     /// Traction Control Delivered Torque Output Circuit Conditions
     /// </summary>
     [Category(Categories.Powertrain), Description("Traction Control Delivered Torque Output Circuit Conditions")]
+    [Manufacturer(Manufacturers.Honda, "MOTFSA Signal Malfunction")]
     P1644 = 0x1644,
     /// <summary>
     /// Evaporative Emission Purge Solenoid Output Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("Evaporative Emission Purge Solenoid Output Circuit")]
+    [Manufacturer(Manufacturers.Honda, "MOTFSB Signal Malfunction")]
     P1645 = 0x1645,
     /// <summary>
     /// HO2 Sensor Control Malfunction Bank 1 Upstream
     /// </summary>
     [Category(Categories.Powertrain), Description("HO2 Sensor Control Malfunction Bank 1 Upstream")]
+    [Manufacturer(Manufacturers.Honda, "MOTSTB Signal Malfunction")]
     P1646 = 0x1646,
     /// <summary>
     /// HO2 Sensor Control Malfunction Bank 2 Upstream
     /// </summary>
     [Category(Categories.Powertrain), Description("HO2 Sensor Control Malfunction Bank 2 Upstream")]
+    [Manufacturer(Manufacturers.Honda, "Power Command Signal Circuit Low/High Input/Engine Torque Signal Circuit Low/High Input/Mode Signal Circuit 1 Low/High Input/Mode Signal Circuit 2 Problem/Engine Speed Signal Circuit Problem")]
     P1647 = 0x1647,
     /// <summary>
     /// Anti-Theft Device Wrong Security Code
     /// </summary>
     [Category(Categories.Powertrain), Description("Anti-Theft Device Wrong Security Code")]
+    [Manufacturer(Manufacturers.Honda, "Battery Condition Monitor (BCM) Module/Motor Control Module (MCM) Communication Signal Circuit Problem")]
     P1648 = 0x1648,
     /// <summary>
     /// Immobilizer Security Code Not Programmed
@@ -24558,11 +24673,13 @@ public enum DTC
     /// EVAP Purge Solenoid Control Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("EVAP Purge Solenoid Control Circuit")]
+    [Manufacturer(Manufacturers.Honda, "CVT-FI TMA/TMB Signal Line Failure")]
     P1655 = 0x1655,
     /// <summary>
     /// Oil Control Valve Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Oil Control Valve Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Problem in PCM-to-VTM-4 Control Unit Communications Circuit")]
     P1656 = 0x1656,
     /// <summary>
     /// Electronic Throttle Control System Control Relay ON Malfunction
@@ -24598,6 +24715,7 @@ public enum DTC
     /// Cooling Fan Control Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("Cooling Fan Control Circuit")]
+    [Manufacturer(Manufacturers.Honda, "A/T-FI Data Line Failure/TCM - ECM Halt")]
     P1660 = 0x1660,
     /// <summary>
     /// MIL Control Circuit Conditions
@@ -24678,6 +24796,7 @@ public enum DTC
     /// Cooling Fan Relay Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Cooling Fan Relay Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Motor Control Module (MCM) Relay Stays Activated")]
     P1673 = 0x1673,
     /// <summary>
     /// Control Module Software Corrupted 
@@ -24703,11 +24822,13 @@ public enum DTC
     /// Immobilizer Powertrain Identification Failed
     /// </summary>
     [Category(Categories.Powertrain), Description("Immobilizer Powertrain Identification Failed")]
+    [Manufacturer(Manufacturers.Honda, "FPTDR Signal Line Failure")]
     P1678 = 0x1678,
     /// <summary>
     /// Immobilizer Environment Identification Failed
     /// </summary>
     [Category(Categories.Powertrain), Description("Immobilizer Environment Identification Failed")]
+    [Manufacturer(Manufacturers.Honda, "RSCD Signal Circuit Malfunction")]
     P1679 = 0x1679,
     /// <summary>
     /// Calibration Mismatch
@@ -24733,11 +24854,13 @@ public enum DTC
     /// Control Module Not Programmed
     /// </summary>
     [Category(Categories.Powertrain), Description("Control Module Not Programmed")]
+    [Manufacturer(Manufacturers.Honda, "A/T FI Signal A Circuit Low Voltage")]
     P1681 = 0x1681,
     /// <summary>
     /// Metering Oil Pump Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Metering Oil Pump Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "A/T FI Signal A Circuit High Voltage")]
     P1682 = 0x1682,
     /// <summary>
     /// Throttle Valve Default Position Spring Performance Problem
@@ -24748,6 +24871,7 @@ public enum DTC
     /// Metering Oil Pump Position Sensor Circuit Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Metering Oil Pump Position Sensor Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Throttle Valve Return Spring Performance Problem")]
     P1684 = 0x1684,
     /// <summary>
     /// Invalid SKIM Key
@@ -24758,11 +24882,13 @@ public enum DTC
     /// No SKIM BUS Messages Received
     /// </summary>
     [Category(Categories.Powertrain), Description("No SKIM BUS Messages Received")]
+    [Manufacturer(Manufacturers.Honda, "A/T FI Signal B Circuit Low Voltage")]
     P1686 = 0x1686,
     /// <summary>
     /// No Cluster Bus Message
     /// </summary>
     [Category(Categories.Powertrain), Description("No Cluster Bus Message")]
+    [Manufacturer(Manufacturers.Honda, "A/T FI Signal B Circuit High Voltage")]
     P1687 = 0x1687,
     /// <summary>
     /// Internal Fuel Injection Pump Controller Failure
@@ -24978,12 +25104,20 @@ public enum DTC
     /// Engine Control Module Self-Test Torque Monitoring Fault
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Control Module Self-Test Torque Monitoring Fault")]
+    [Manufacturer(Manufacturers.Honda, "Motor Control Module (MCM) Program Not Installed (Motor Control Program)")]
     P16C1 = 0x16C1,
     /// <summary>
     /// Engine Control Module Self-Test Speed Limitation Monitoring Fault
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Control Module Self-Test Speed Limitation Monitoring Fault")]
+    [Manufacturer(Manufacturers.Honda, "Motor Control Module (MCM) Program Not Installed (Battery Condition Monitor Program)")]
     P16C2 = 0x16C2,
+    /// <summary>
+    /// DC-DC Converter Temperature Sensor Circuit Malfunction
+    /// </summary>
+    [Category(Categories.Powertrain), Description("DC-DC Converter Temperature Sensor Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "DC-DC Converter Temperature Sensor Circuit Malfunction")]
+    P16C3 = 0x16C3,
     /// <summary>
     /// Engine Mount Actuator Control Power Circuit Stuck Off
     /// </summary>
@@ -25113,6 +25247,7 @@ public enum DTC
     /// Battery Monitor Module Read Only Memory
     /// </summary>
     [Category(Categories.Powertrain), Description("Battery Monitor Module Read Only Memory")]
+    [Manufacturer(Manufacturers.Honda, "PGM-FI-ACG LIN Communication Error")]
     P16E2 = 0x16E2,
     /// <summary>
     /// Battery Sensor LIN Communication Error
@@ -25123,16 +25258,19 @@ public enum DTC
     /// Sensor Communication Circuit 3 Low Voltage
     /// </summary>
     [Category(Categories.Powertrain), Description("Sensor Communication Circuit 3 Low Voltage")]
+    [Manufacturer(Manufacturers.Honda, "ACG High-temperature")]
     P16E4 = 0x16E4,
     /// <summary>
     /// Sensor Communication Circuit 3 High Voltage
     /// </summary>
     [Category(Categories.Powertrain), Description("Sensor Communication Circuit 3 High Voltage")]
+    [Manufacturer(Manufacturers.Honda, "LIN Communication Error [PCM-DC-DC Converter]")]
     P16E5 = 0x16E5,
     /// <summary>
     /// Throttle Valve Adaptation Conditions Not Met Battery Voltage Too Low Bank 1
     /// </summary>
     [Category(Categories.Powertrain), Description("Throttle Valve Adaptation Conditions Not Met Battery Voltage Too Low Bank 1")]
+    [Manufacturer(Manufacturers.Honda, "Transmission Range Switch START Switch Circuit Malfunction")]
     P16E6 = 0x16E6,
     /// <summary>
     /// Internal Control Module Volt Supply Voltage 1 Performance
@@ -25158,6 +25296,7 @@ public enum DTC
     /// Control Module Serial Peripheral Interface Bus 4
     /// </summary>
     [Category(Categories.Powertrain), Description("Control Module Serial Peripheral Interface Bus 4")]
+    [Manufacturer(Manufacturers.Honda, "LIN Communication Error (Powertrain Control Module (PCM)-Active Exhaust)")]
     P16EB = 0x16EB,
     /// <summary>
     /// Control Module Serial Peripheral Interface Bus 5
@@ -25183,6 +25322,7 @@ public enum DTC
     /// Control Module Serial Peripheral Interface Bus 1
     /// </summary>
     [Category(Categories.Powertrain), Description("Control Module Serial Peripheral Interface Bus 1")]
+    [Manufacturer(Manufacturers.Honda, "Powertrain Control Module (PCM) Internal Circuit Malfunction (Starter Control Circuit Malfunction)")]
     P16F0 = 0x16F0,
     /// <summary>
     /// ECM Internal Circuit Malfunction Starter Control Circuit Malfunction
@@ -25193,16 +25333,19 @@ public enum DTC
     /// Control Module Transmission Direction Range Switch
     /// </summary>
     [Category(Categories.Powertrain), Description("Control Module Transmission Direction Range Switch")]
+    [Manufacturer(Manufacturers.Honda, "Powertrain Control Module (PCM) Internal Circuit Malfunction (Starter Control Circuit Malfunction)")]
     P16F2 = 0x16F2,
     /// <summary>
     /// Control Module Redundant Memory Performance
     /// </summary>
     [Category(Categories.Powertrain), Description("Control Module Redundant Memory Performance")]
+    [Manufacturer(Manufacturers.Honda, "Starter Cut Relay 1 Control Circuit Low Voltage")]
     P16F3 = 0x16F3,
     /// <summary>
     /// Control Module Transmission Range Switch Input Circuitry Performance
     /// </summary>
     [Category(Categories.Powertrain), Description("Control Module Transmission Range Switch Input Circuitry Performance")]
+    [Manufacturer(Manufacturers.Honda, "Starter Cut Relay 2 Control Circuit Low Voltage")]
     P16F4 = 0x16F4,
     /// <summary>
     /// Starter Cut Relay 1 Control Circuit High Voltage
@@ -25213,16 +25356,19 @@ public enum DTC
     /// Control Module Range State Command
     /// </summary>
     [Category(Categories.Powertrain), Description("Control Module Range State Command")]
+    [Manufacturer(Manufacturers.Honda, "Starter Cut Relay 2 Control Circuit High Voltage")]
     P16F6 = 0x16F6,
     /// <summary>
     /// Control Module Pressure Control Solenoid Command Incorrect
     /// </summary>
     [Category(Categories.Powertrain), Description("Control Module Pressure Control Solenoid Command Incorrect")]
+    [Manufacturer(Manufacturers.Honda, "Starter Inhibitor Relay Stuck ON")]
     P16F7 = 0x16F7,
     /// <summary>
     /// Control Module Clutch Command Incorrect
     /// </summary>
     [Category(Categories.Powertrain), Description("Control Module Clutch Command Incorrect")]
+    [Manufacturer(Manufacturers.Honda, "Starter Inhibitor Relay Stuck OFF")]
     P16F8 = 0x16F8,
     /// <summary>
     /// Control Module Shutdown Performance
@@ -25253,6 +25399,7 @@ public enum DTC
     /// Transmission Control Module Power Supply
     /// </summary>
     [Category(Categories.Powertrain), Description("Transmission Control Module Power Supply")]
+    [Manufacturer(Manufacturers.Honda, "Back-Up Light Switch Malfunction")]
     P1701 = 0x1701,
     /// <summary>
     /// Transmission Range Circuit Failure
@@ -25273,6 +25420,7 @@ public enum DTC
     /// Transmission Range Sensor Out Of Self-Test Range 
     /// </summary>
     [Category(Categories.Powertrain), Description("Transmission Range Sensor Out Of Self-Test Range ")]
+    [Manufacturer(Manufacturers.Honda, "Short in Transmission Range Switch Circuit (More than one range position is on at the same time)")]
     P1705 = 0x1705,
     /// <summary>
     /// Park and Neutral Position Switch
@@ -25283,16 +25431,19 @@ public enum DTC
     /// Transfer Case Neutral Indicator Hard Fault Present
     /// </summary>
     [Category(Categories.Powertrain), Description("Transfer Case Neutral Indicator Hard Fault Present")]
+    [Manufacturer(Manufacturers.Honda, "Neutral Position Sensor B Circuit Low Voltage")]
     P1707 = 0x1707,
     /// <summary>
     /// Accelerator Switch
     /// </summary>
     [Category(Categories.Powertrain), Description("Accelerator Switch")]
+    [Manufacturer(Manufacturers.Honda, "Neutral Position Sensor B Circuit High Voltage")]
     P1708 = 0x1708,
     /// <summary>
     /// Park/Neutral Position Switch Out Of Self-Test Range
     /// </summary>
     [Category(Categories.Powertrain), Description("Park/Neutral Position Switch Out Of Self-Test Range")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Transmission Gear Selection Switch Circuit")]
     P1709 = 0x1709,
     /// <summary>
     /// First Hold Switch Circuit Fault Stuck On
@@ -25418,16 +25569,19 @@ public enum DTC
     /// Automatic Transmission Interlock
     /// </summary>
     [Category(Categories.Powertrain), Description("Automatic Transmission Interlock")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Shift Control System: Shift Solenoid Valve A and D Stuck OFF; Shift Solenoid Valve B Stuck ON; Shift Valves A, B, and D Stuck")]
     P1730 = 0x1730,
     /// <summary>
     /// A/T 1st Engine Braking
     /// </summary>
     [Category(Categories.Powertrain), Description("A/T 1st Engine Braking")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Shift Control System: Shift Solenoid Valve E Stuck ON; Shift Valve E Stuck; A/T Clutch Pressure Control Solenoid Valve A Stuck OFF")]
     P1731 = 0x1731,
     /// <summary>
     /// Engine Overspeed Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Overspeed Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Shift Control System: Shift Solenoid Valve B and C Stuck ON; Shift Valves B and C Stuck")]
     P1732 = 0x1732,
     /// <summary>
     /// Problem In Shift Control System
@@ -25473,6 +25627,7 @@ public enum DTC
     /// Torque Converter Clutch or Overdrive Solenoid Performance Condition
     /// </summary>
     [Category(Categories.Powertrain), Description("Torque Converter Clutch or Overdrive Solenoid Performance Condition")]
+    [Manufacturer(Manufacturers.Honda, "Problem in 4th Clutch Pressure Switch Circuit")]
     P1740 = 0x1740,
     /// <summary>
     /// Torque Converter Clutch Control Error
@@ -25488,26 +25643,31 @@ public enum DTC
     /// Torque Converter Clutch Solenoid Failed On Conditions
     /// </summary>
     [Category(Categories.Powertrain), Description("Torque Converter Clutch Solenoid Failed On Conditions")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Shift Control System; Shift Valve E Stuck OFF")]
     P1743 = 0x1743,
     /// <summary>
     /// Torque Converter Clutch System Stuck in Off Position
     /// </summary>
     [Category(Categories.Powertrain), Description("Torque Converter Clutch System Stuck in Off Position")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Shift Control System; Shift Valve E Stuck ON")]
     P1744 = 0x1744,
     /// <summary>
     /// Line Pressure Too High For Too Long
     /// </summary>
     [Category(Categories.Powertrain), Description("Line Pressure Too High For Too Long")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Shift Control System; Servo Control Valve Stuck OFF or Servo Valve Stuck OFF")]
     P1745 = 0x1745,
     /// <summary>
     /// Electronic Pressure Control Solenoid Low Conditions
     /// </summary>
     [Category(Categories.Powertrain), Description("Electronic Pressure Control Solenoid Low Conditions")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Shift Control System; Cut Valve A Stuck OFF, or Cut Valve B Stuck ON")]
     P1746 = 0x1746,
     /// <summary>
     /// Electronic Pressure Control Solenoid 'A' Short Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("Electronic Pressure Control Solenoid 'A' Short Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Shift Control System; Cut Valve A Stuck ON, or Cut Valve B Stuck OFF")]
     P1747 = 0x1747,
     /// <summary>
     /// Electronic Pressure Control Malfunction
@@ -25553,6 +25713,7 @@ public enum DTC
     /// Mechanical Problem In Hydraulic Control System Of Shift Solenoid Valve 'B'
     /// </summary>
     [Category(Categories.Powertrain), Description("Mechanical Problem In Hydraulic Control System Of Shift Solenoid Valve 'B'")]
+    [Manufacturer(Manufacturers.Honda, "Mechanical Problem in Hydraulic Control System of Shift Solenoid Valve B and A/T Clutch Pressure Control Solenoid Valves A and B, or Problem in the Hydraulic Control System/Problem in Torque Converter Clutch Solenoid Valve B Circuit")]
     P1751 = 0x1751,
     /// <summary>
     /// Input Clutch Solenoid Valve
@@ -25648,6 +25809,7 @@ public enum DTC
     /// A/T Clutch Pressure Control Solenoid Valve Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("A/T Clutch Pressure Control Solenoid Valve Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Torque Converter Clutch Solenoid Valve B Circuit")]
     P1768 = 0x1768,
     /// <summary>
     /// High and Low Reverse Clutch Solenoid Valve Function
@@ -25733,6 +25895,7 @@ public enum DTC
     /// Transmission Control Switch Out of Self-Test Range
     /// </summary>
     [Category(Categories.Powertrain), Description("Transmission Control Switch Out of Self-Test Range")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Shift Control System")]
     P1780 = 0x1780,
     /// <summary>
     /// 4x4 Low Switch Out of Self-Test Range Conditions
@@ -25783,6 +25946,7 @@ public enum DTC
     /// Lock-Up Clutch Not Engaging
     /// </summary>
     [Category(Categories.Powertrain), Description("Lock-Up Clutch Not Engaging")]
+    [Manufacturer(Manufacturers.Honda, "Throttle Position (TP) Sensor Circuit Malfunction")]
     P1790 = 0x1790,
     /// <summary>
     /// Vehicle Speed Sensor Range/Performance Problem
@@ -25798,6 +25962,7 @@ public enum DTC
     /// Ignition Supply Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Ignition Supply Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Manifold Absolute Pressure Sensor Circuit")]
     P1793 = 0x1793,
     /// <summary>
     /// Battery Supply Circuit Malfunction
@@ -26383,11 +26548,13 @@ public enum DTC
     /// Internal Mode Switch 'S' Circuit Low Voltage
     /// </summary>
     [Category(Categories.Powertrain), Description("Internal Mode Switch 'S' Circuit Low Voltage")]
+    [Manufacturer(Manufacturers.Honda, "CVT Speed Sensor Circuit Forward Rotation Range/Performance")]
     P1840 = 0x1840,
     /// <summary>
     /// Automatic Transmission Fluid Pressure Switch 1
     /// </summary>
     [Category(Categories.Powertrain), Description("Automatic Transmission Fluid Pressure Switch 1")]
+    [Manufacturer(Manufacturers.Honda, "CVT Speed Sensor Circuit Reverse Rotation Range/Performance")]
     P1841 = 0x1841,
     /// <summary>
     /// 1-2 Shift Solenoid Circuit Low Input Voltage
@@ -26403,11 +26570,13 @@ public enum DTC
     /// Transmission Fluid Pressure Sensor/Switch 'A' Circuit Intermittent
     /// </summary>
     [Category(Categories.Powertrain), Description("Transmission Fluid Pressure Sensor/Switch 'A' Circuit Intermittent")]
+    [Manufacturer(Manufacturers.Honda, "CVT Input Shaft Speed Sensor Circuit Forward Rotation Range/Performance")]
     P1844 = 0x1844,
     /// <summary>
     /// 2-3 Shift Solenoid Circuit Low Input Voltage
     /// </summary>
     [Category(Categories.Powertrain), Description("2-3 Shift Solenoid Circuit Low Input Voltage")]
+    [Manufacturer(Manufacturers.Honda, "CVT Input Shaft Speed Sensor Circuit Reverse Rotation Range/Performance")]
     P1845 = 0x1845,
     /// <summary>
     /// Automatic Transmission Fluid Pressure Switch 6
@@ -26478,6 +26647,7 @@ public enum DTC
     /// Transmission Transfer Case Contact Plate 'C' Open Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("Transmission Transfer Case Contact Plate 'C' Open Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Inclination Sensor Circuit Range/Performance")]
     P1855 = 0x1855,
     /// <summary>
     /// Transmission Transfer Case Contact Plate 'C' Short Circuit To Battery
@@ -26528,11 +26698,13 @@ public enum DTC
     /// TCC PWM Solenoid Circuit Electrical
     /// </summary>
     [Category(Categories.Powertrain), Description("TCC PWM Solenoid Circuit Electrical")]
+    [Manufacturer(Manufacturers.Honda, "Inhibitor Solenoid Circuit Low Voltage")]
     P1860 = 0x1860,
     /// <summary>
     /// Transfer Case Contact Plate 'D' Short Circuit To Ground
     /// </summary>
     [Category(Categories.Powertrain), Description("Transfer Case Contact Plate 'D' Short Circuit To Ground")]
+    [Manufacturer(Manufacturers.Honda, "Inhibitor Solenoid Circuit High Voltage")]
     P1861 = 0x1861,
     /// <summary>
     /// Transmission Transfer Case Contact Plate Power Circuit Failure
@@ -26608,6 +26780,7 @@ public enum DTC
     /// Transmission Component Slipping/ Transmission Mechanical Transfer Case 4x4 Switch Circuit Failure
     /// </summary>
     [Category(Categories.Powertrain), Description("Transmission Component Slipping/ Transmission Mechanical Transfer Case 4x4 Switch Circuit Failure")]
+    [Manufacturer(Manufacturers.Honda, "Problem in CVT Speed Change Control Valve Assembly Circuit")]
     P1870 = 0x1870,
     /// <summary>
     /// Undefined Gear Ratio
@@ -26683,6 +26856,7 @@ public enum DTC
     /// Engine Coolant Level Switch Circuit Short to Ground
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Coolant Level Switch Circuit Short to Ground")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Inhibitor Solenoid Circuit")]
     P1882 = 0x1882,
     /// <summary>
     /// Engine Coolant Level Switch Circuit Failure
@@ -26693,6 +26867,7 @@ public enum DTC
     /// Engine Coolant Level Lamp Circuit Short to Ground
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Coolant Level Lamp Circuit Short to Ground")]
+    [Manufacturer(Manufacturers.Honda, "Secondary Gear Speed Sensor 2 Circuit Malfunction")]
     P1884 = 0x1884,
     /// <summary>
     /// CVT Drive Pulley Speed Sensor Circuit
@@ -26703,6 +26878,7 @@ public enum DTC
     /// Transaxle Shift Timing Solenoid Performance
     /// </summary>
     [Category(Categories.Powertrain), Description("Transaxle Shift Timing Solenoid Performance")]
+    [Manufacturer(Manufacturers.Honda, "CVT Driven Pulley Speed Sensor Circuit")]
     P1886 = 0x1886,
     /// <summary>
     /// Torque Converter Clutch Release Switch Circuit
@@ -26718,6 +26894,7 @@ public enum DTC
     /// Drive Train Axles Bearings Problem
     /// </summary>
     [Category(Categories.Powertrain), Description("Drive Train Axles Bearings Problem")]
+    [Manufacturer(Manufacturers.Honda, "Problem in CVT Speed Sensor 2 Circuit")]
     P1889 = 0x1889,
     /// <summary>
     /// Shift Control System
@@ -26728,6 +26905,7 @@ public enum DTC
     /// Transmission Transfer Case Contact Plate Ground Return Open Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("Transmission Transfer Case Contact Plate Ground Return Open Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Problem in Start Clutch System")]
     P1891 = 0x1891,
     /// <summary>
     /// Throttle Position Sensor PWM Signal High
@@ -26748,6 +26926,7 @@ public enum DTC
     /// Engine Torque Delivered Circuit
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Torque Delivered Circuit")]
+    [Manufacturer(Manufacturers.Honda, "CVT Pulley Pressure Control Valve Circuit")]
     P1895 = 0x1895,
     /// <summary>
     /// Engine Torque No Data BUS from ECM
@@ -26768,6 +26947,7 @@ public enum DTC
     /// Park/Neutral Switch Circuit Conditions
     /// </summary>
     [Category(Categories.Powertrain), Description("Park/Neutral Switch Circuit Conditions")]
+    [Manufacturer(Manufacturers.Honda, "CVT Drive Pulley Pressure Control Valve Stuck OFF or CVT Driven Pulley Pressure Control Valve Stuck ON")]
     P1899 = 0x1899,
     /// <summary>
     /// Transmission Range Command Message Performance
@@ -26888,26 +27068,31 @@ public enum DTC
     /// Output Shaft Speed Circuit Intermittent Malfunction
     /// </summary>
     [Category(Categories.Powertrain), Description("Output Shaft Speed Circuit Intermittent Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Short in Auxiliary Transmission Fluid Pump (ATFP) Relay Circuit or ATFP Relay Stuck ON")]
     P1900 = 0x1900,
     /// <summary>
     /// Turbine Shaft Speed Sensor Circuit Intermittent
     /// </summary>
     [Category(Categories.Powertrain), Description("Turbine Shaft Speed Sensor Circuit Intermittent")]
+    [Manufacturer(Manufacturers.Honda, "Open in Auxiliary Transmission Fluid Pump (ATFP) Relay Circuit or ATFP Relay Stuck OFF")]
     P1901 = 0x1901,
     /// <summary>
     /// CAN Data Bus Multifunction Control Module 2
     /// </summary>
     [Category(Categories.Powertrain), Description("CAN Data Bus Multifunction Control Module 2")]
+    [Manufacturer(Manufacturers.Honda, "Open in Auxiliary Transmission Fluid Pump (ATFP) Motor U-phase Circuit")]
     P1902 = 0x1902,
     /// <summary>
     /// Engine Coolant Hydraulic Blower Motor Solenoid Short To Positive
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Coolant Hydraulic Blower Motor Solenoid Short To Positive")]
+    [Manufacturer(Manufacturers.Honda, "Open in Auxiliary Transmission Fluid Pump (ATFP) Motor V-phase Circuit")]
     P1903 = 0x1903,
     /// <summary>
     /// Engine Coolant Hydraulic Blower Motor Solenoid Open Circuit/Short To Ground
     /// </summary>
     [Category(Categories.Powertrain), Description("Engine Coolant Hydraulic Blower Motor Solenoid Open Circuit/Short To Ground")]
+    [Manufacturer(Manufacturers.Honda, "Open in Auxiliary Transmission Fluid Pump (ATFP) Motor W-phase Circuit")]
     P1904 = 0x1904,
     /// <summary>
     /// Charge Air Coolant Pump Relay Short To Positive
@@ -27988,6 +28173,7 @@ public enum DTC
     /// Drive Motor 1 Control Module Hybrid/EV Battery Voltage System Isolation Lost
     /// </summary>
     [Category(Categories.Powertrain), Description("Drive Motor 1 Control Module Hybrid/EV Battery Voltage System Isolation Lost")]
+    [Manufacturer(Manufacturers.Honda, "Input Power A Voltage Out of Range")]
     P1AF0 = 0x1AF0,
     /// <summary>
     /// Input Power A Voltage Correlation Abnormality
@@ -28029,6 +28215,7 @@ public enum DTC
     /// Drive Motor 1 Control Module Programmable Logic Device Not Programmed
     /// </summary>
     [Category(Categories.Powertrain), Description("Drive Motor 1 Control Module Programmable Logic Device Not Programmed")]
+    [Manufacturer(Manufacturers.Honda, "Input Power A Circuit Low Voltage")]
     P1AFA = 0x1AFA,
     /// <summary>
     /// Drive Motor 1 Control Module Programmable Logic Device Security Code
@@ -54344,6 +54531,7 @@ public enum DTC
     /// Manufacturer Controlled DTC
     /// </summary>
     [Category(Categories.Chassis), Description("Manufacturer Controlled DTC")]
+    [Manufacturer(Manufacturers.Honda, "ABS/VSA Activation Time Too Long")]
     C1000 = 0x5000,
     /// <summary>
     /// Vision System Camera General Electrical Failure
@@ -54429,11 +54617,13 @@ public enum DTC
     /// Left Front Wheel Speed Comparative Performance
     /// </summary>
     [Category(Categories.Chassis), Description("Left Front Wheel Speed Comparative Performance")]
+    [Manufacturer(Manufacturers.Honda, "Left Front Brake Caliper Pressure Sensor Failure (Internal Circuit Failure)")]
     C1014 = 0x5014,
     /// <summary>
     /// Right Front Wheel Speed Sensor Circuit
     /// </summary>
     [Category(Categories.Chassis), Description("Right Front Wheel Speed Sensor Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Right Front Brake Caliper Pressure Sensor Failure (Internal Circuit Failure)")]
     C1015 = 0x5015,
     /// <summary>
     /// Brake Light Switch Circuit Failure
@@ -54474,16 +54664,19 @@ public enum DTC
     /// Left Rear Wheel Speed Sensor Circuit
     /// </summary>
     [Category(Categories.Chassis), Description("Left Rear Wheel Speed Sensor Circuit")]
+    [Manufacturer(Manufacturers.Honda, "VSA Master Cut Valve Failure (Unexpected Operation)")]
     C1020 = 0x5020,
     /// <summary>
     /// ABS Booster Control Pressure Signal Amplitude
     /// </summary>
     [Category(Categories.Chassis), Description("ABS Booster Control Pressure Signal Amplitude")]
+    [Manufacturer(Manufacturers.Honda, "VSA Suction Valve Failure (Unexpected Operation)")]
     C1021 = 0x5021,
     /// <summary>
     /// Right Front Wheel Speed Sensor Circuit
     /// </summary>
     [Category(Categories.Chassis), Description("Right Front Wheel Speed Sensor Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Power Source Failure for Pump Motor")]
     C1022 = 0x5022,
     /// <summary>
     /// Pull Drift Compensation Limit Exceeded
@@ -54536,6 +54729,12 @@ public enum DTC
     [Category(Categories.Chassis), Description("High Friction Inside Power Steering")]
     C102D = 0x502D,
     /// <summary>
+    /// TPMS Switch Circuit Short/TPMS Switch Circuit Open
+    /// </summary>
+    [Category(Categories.Chassis), Description("TPMS Switch Circuit Short/TPMS Switch Circuit Open")]
+    [Manufacturer(Manufacturers.Honda, "TPMS Switch Circuit Short/TPMS Switch Circuit Open")]
+    C1030 = 0x5030,
+    /// <summary>
     /// Right Rear Wheel Speed Sensor Circuit
     /// </summary>
     [Category(Categories.Chassis), Description("Right Rear Wheel Speed Sensor Circuit")]
@@ -54584,6 +54783,7 @@ public enum DTC
     /// Rear Wheel Speed Comparative Performance
     /// </summary>
     [Category(Categories.Chassis), Description("Rear Wheel Speed Comparative Performance")]
+    [Manufacturer(Manufacturers.Honda, "Wheel Speed Signal Error")]
     C1040 = 0x5040,
     /// <summary>
     /// Left Front Tone Wheel Performance
@@ -54869,6 +55069,7 @@ public enum DTC
     /// ABS Pump Switch Circuit Failure - Generic
     /// </summary>
     [Category(Categories.Chassis), Description("ABS Pump Switch Circuit Failure - Generic")]
+    [Manufacturer(Manufacturers.Honda, "Electric Parking Brake Abnormal Operation Monitoring/Electric Parking Brake System in Maintenance Mode/Piston Position Not Learned/Decelerating Abnormally Detection/Brake Fluid Leakage/Electric Parking Brake Continuous Operations Detected")]
     C1100 = 0x5100,
     /// <summary>
     /// Brake Booster Vacuum Sensor Performance
@@ -54939,11 +55140,13 @@ public enum DTC
     /// ABS Controller Failure
     /// </summary>
     [Category(Categories.Chassis), Description("ABS Controller Failure")]
+    [Manufacturer(Manufacturers.Honda, "Left Rear Electric Parking Brake Actuator Circuit Short to Ground/Left Rear Electric Parking Brake Actuator Circuit Open/Left Side Electric Parking Brake Doesn't Work Correctly/Left Side Electric Parking Brake Actuator Malfunction")]
     C1110 = 0x5110,
     /// <summary>
     /// ABS Pump Motor
     /// </summary>
     [Category(Categories.Chassis), Description("ABS Pump Motor")]
+    [Manufacturer(Manufacturers.Honda, "Right Rear Electric Parking Brake Actuator Circuit Short to Ground/Right Rear Electric Parking Brake Actuator Circuit Open/Right Side Electric Parking Brake Doesn't Work Correctly/Right Side Electric Parking Brake Actuator Malfunction")]
     C1111 = 0x5111,
     /// <summary>
     /// Trailer Brake Signal to Trailer Brake Power Control Module Circuit Malfunction
@@ -54994,6 +55197,7 @@ public enum DTC
     /// Front Left Input ABS Solenoid
     /// </summary>
     [Category(Categories.Chassis), Description("Front Left Input ABS Solenoid")]
+    [Manufacturer(Manufacturers.Honda, "Electric Parking Brake Switch Circuit Malfunction/Electric Parking Brake Switch Malfunction")]
     C1120 = 0x5120,
     /// <summary>
     /// Front Left Output ABS Solenoid
@@ -55039,11 +55243,13 @@ public enum DTC
     /// Engine Signal 1
     /// </summary>
     [Category(Categories.Chassis), Description("Engine Signal 1")]
+    [Manufacturer(Manufacturers.Honda, "Clutch Stroke Sensor Not Calibrated/Clutch Pedal Stroke Sensor CPS1/CPS2 Incorrect Voltage Correlation/Clutch Pedal Stroke Sensor Mount Position Error")]
     C1130 = 0x5130,
     /// <summary>
     /// Engine Signal 2
     /// </summary>
     [Category(Categories.Chassis), Description("Engine Signal 2")]
+    [Manufacturer(Manufacturers.Honda, "Clutch Pedal Stroke Sensor CPS1/CPS2 Open or Short")]
     C1131 = 0x5131,
     /// <summary>
     /// Engine Signal 3
@@ -55814,6 +56020,7 @@ public enum DTC
     /// Temperature / Overload
     /// </summary>
     [Category(Categories.Chassis), Description("Temperature / Overload")]
+    [Manufacturer(Manufacturers.Honda, "Automatic Brake Hold Switch Signal Circuit Short/Automatic Brake Hold Switch Signal Circuit Open")]
     C1270 = 0x5270,
     /// <summary>
     /// Low Output Signal of Front Right Speed Sensor
@@ -56504,6 +56711,7 @@ public enum DTC
     /// Traction Control Valve Right Front Circuit Failure
     /// </summary>
     [Category(Categories.Chassis), Description("Traction Control Valve Right Front Circuit Failure")]
+    [Manufacturer(Manufacturers.Honda, "Motor Current Malfunction/EPS Motor Circuit Open/Motor Voltage Malfunction")]
     C1400 = 0x5400,
     /// <summary>
     /// Front Speed Sensor Right Malfunction
@@ -56519,6 +56727,7 @@ public enum DTC
     /// Rear Speed Sensor Right Malfunction
     /// </summary>
     [Category(Categories.Chassis), Description("Rear Speed Sensor Right Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Motor Angle Sensor (SIN/COS) Signals Open or Short/Motor Angle Sensor (SIN/COS) Signals Incorrect Correlation")]
     C1403 = 0x5403,
     /// <summary>
     /// Rear Speed Sensor Left Malfunction
@@ -56659,21 +56868,25 @@ public enum DTC
     ///  Acceleration Sensor Malfunction
     /// </summary>
     [Category(Categories.Chassis), Description(" Acceleration Sensor Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Main Torque Sensor and Sub Torque Sensor Incorrect Correlation")]
     C1420 = 0x5420,
     /// <summary>
     /// Open or Short in Master Cylinder Pressure Sensor
     /// </summary>
     [Category(Categories.Chassis), Description("Open or Short in Master Cylinder Pressure Sensor")]
+    [Manufacturer(Manufacturers.Honda, "Main Torque Sensor Malfunction")]
     C1421 = 0x5421,
     /// <summary>
     /// Master Cylinder Pressure Sensor Zero Point High Malfunction
     /// </summary>
     [Category(Categories.Chassis), Description("Master Cylinder Pressure Sensor Zero Point High Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Sub Torque Sensor Malfunction")]
     C1422 = 0x5422,
     /// <summary>
     /// Master Cylinder Pressure Sensor Zero Point Low Malfunction
     /// </summary>
     [Category(Categories.Chassis), Description("Master Cylinder Pressure Sensor Zero Point Low Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Torque Sensor Power Source Circuit Malfunction")]
     C1423 = 0x5423,
     /// <summary>
     /// Master Cylinder Pressure Sensor Output Malfunction
@@ -56726,6 +56939,7 @@ public enum DTC
     /// Steering Angle Sensor Power Source Voltage Malfunction
     /// </summary>
     [Category(Categories.Chassis), Description("Steering Angle Sensor Power Source Voltage Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Vehicle Speed and the Engine Speed Incorrect Correlation")]
     C1432 = 0x5432,
     /// <summary>
     /// Steering Angle Sensor Internal Circuit Problem
@@ -57778,10 +57992,53 @@ public enum DTC
     [Category(Categories.Chassis), Description("Vehicle Height Sensor Failure")]
     C1628 = 0x5628,
     /// <summary>
+    /// Left Front Damper Solenoid Circuit Short Failure/Left Front Damper Solenoid Circuit Open Failure/Left Front Damper Solenoid Current Characteristic Abnormality
+    /// </summary>
+    [Category(Categories.Chassis), Description("Left Front Damper Solenoid Circuit Short Failure/Left Front Damper Solenoid Circuit Open Failure/Left Front Damper Solenoid Current Characteristic Abnormality")]
+    [Manufacturer(Manufacturers.Honda, "Left Front Damper Solenoid Circuit Short Failure/Left Front Damper Solenoid Circuit Open Failure/Left Front Damper Solenoid Current Characteristic Abnormality")]
+    C1640 = 0x5640,
+    /// <summary>
+    /// Right Front Damper Solenoid Circuit Short Failure/Right Front Damper Solenoid Circuit Open Failure/Right Front Damper Solenoid Current Characteristic Abnormality
+    /// </summary>
+    [Category(Categories.Chassis), Description("Right Front Damper Solenoid Circuit Short Failure/Right Front Damper Solenoid Circuit Open Failure/Right Front Damper Solenoid Current Characteristic Abnormality")]
+    [Manufacturer(Manufacturers.Honda, "Right Front Damper Solenoid Circuit Short Failure/Right Front Damper Solenoid Circuit Open Failure/Right Front Damper Solenoid Current Characteristic Abnormality")]
+    C1641 = 0x5641,
+    /// <summary>
+    /// Left Rear Damper Solenoid Circuit Short Failure/Left Rear Damper Solenoid Circuit Open Failure/Left Rear Damper Solenoid Current Characteristic Abnormality
+    /// </summary>
+    [Category(Categories.Chassis), Description("Left Rear Damper Solenoid Circuit Short Failure/Left Rear Damper Solenoid Circuit Open Failure/Left Rear Damper Solenoid Current Characteristic Abnormality")]
+    [Manufacturer(Manufacturers.Honda, "Left Rear Damper Solenoid Circuit Short Failure/Left Rear Damper Solenoid Circuit Open Failure/Left Rear Damper Solenoid Current Characteristic Abnormality")]
+    C1642 = 0x5642,
+    /// <summary>
+    /// Right Rear Damper Solenoid Circuit Short Failure/Right Rear Damper Solenoid Circuit Open Failure/Right Rear Damper Solenoid Current Characteristic Abnormality
+    /// </summary>
+    [Category(Categories.Chassis), Description("Right Rear Damper Solenoid Circuit Short Failure/Right Rear Damper Solenoid Circuit Open Failure/Right Rear Damper Solenoid Current Characteristic Abnormality")]
+    [Manufacturer(Manufacturers.Honda, "Right Rear Damper Solenoid Circuit Short Failure/Right Rear Damper Solenoid Circuit Open Failure/Right Rear Damper Solenoid Current Characteristic Abnormality")]
+    C1643 = 0x5643,
+    /// <summary>
+    /// Left-Front Stroke Sensor Upper Limit Abnormality/Left-Front Stroke Sensor Lower Limit Abnormality
+    /// </summary>
+    [Category(Categories.Chassis), Description("Left-Front Stroke Sensor Upper Limit Abnormality/Left-Front Stroke Sensor Lower Limit Abnormality")]
+    [Manufacturer(Manufacturers.Honda, "Left-Front Stroke Sensor Upper Limit Abnormality/Left-Front Stroke Sensor Lower Limit Abnormality")]
+    C1644 = 0x5644,
+    /// <summary>
     /// Power Steering Control System Failure
     /// </summary>
     [Category(Categories.Chassis), Description("Power Steering Control System Failure")]
+    [Manufacturer(Manufacturers.Honda, "Right-Front Stroke Sensor Upper Limit Abnormality/Right-Front Stroke Sensor Lower Limit Abnormality")]
     C1645 = 0x5645,
+    /// <summary>
+    /// Left-Rear Stroke Sensor Upper Limit Abnormality/Left-Rear Stroke Sensor Lower Limit Abnormality
+    /// </summary>
+    [Category(Categories.Chassis), Description("Left-Rear Stroke Sensor Upper Limit Abnormality/Left-Rear Stroke Sensor Lower Limit Abnormality")]
+    [Manufacturer(Manufacturers.Honda, "Left-Rear Stroke Sensor Upper Limit Abnormality/Left-Rear Stroke Sensor Lower Limit Abnormality")]
+    C1646 = 0x5646,
+    /// <summary>
+    /// Right-Rear Stroke Sensor Upper Limit Abnormality/Right-Rear Stroke Sensor Lower Limit Abnormality
+    /// </summary>
+    [Category(Categories.Chassis), Description("Right-Rear Stroke Sensor Upper Limit Abnormality/Right-Rear Stroke Sensor Lower Limit Abnormality")]
+    [Manufacturer(Manufacturers.Honda, "Right-Rear Stroke Sensor Upper Limit Abnormality/Right-Rear Stroke Sensor Lower Limit Abnormality")]
+    C1647 = 0x5647,
     /// <summary>
     /// EPS Communication Malfunction
     /// </summary>
@@ -57797,6 +58054,24 @@ public enum DTC
     /// </summary>
     [Category(Categories.Chassis), Description("Stop Switch Circuit Malfunction")]
     C164E = 0x564E,
+    /// <summary>
+    /// Left-Front Acceleration Sensor Upper Limit Abnormality/Left-Front Acceleration Sensor Difference Abnormality
+    /// </summary>
+    [Category(Categories.Chassis), Description("Left-Front Acceleration Sensor Upper Limit Abnormality/Left-Front Acceleration Sensor Difference Abnormality")]
+    [Manufacturer(Manufacturers.Honda, "Left-Front Acceleration Sensor Upper Limit Abnormality/Left-Front Acceleration Sensor Difference Abnormality")]
+    C1650 = 0x5650,
+    /// <summary>
+    /// Left-Rear Acceleration Sensor Upper Limit Abnormality/Left-Rear Acceleration Sensor Lower Limit Abnormality/Left-Rear Acceleration Sensor Difference Abnormality
+    /// </summary>
+    [Category(Categories.Chassis), Description("Left-Rear Acceleration Sensor Upper Limit Abnormality/Left-Rear Acceleration Sensor Lower Limit Abnormality/Left-Rear Acceleration Sensor Difference Abnormality")]
+    [Manufacturer(Manufacturers.Honda, "Left-Rear Acceleration Sensor Upper Limit Abnormality/Left-Rear Acceleration Sensor Lower Limit Abnormality/Left-Rear Acceleration Sensor Difference Abnormality")]
+    C1652 = 0x5652,
+    /// <summary>
+    /// Right-Rear Acceleration Sensor Upper Limit Abnormality/Right-Rear Acceleration Sensor Lower Limit Abnormality/Right-Rear Acceleration Sensor Difference Abnormality
+    /// </summary>
+    [Category(Categories.Chassis), Description("Right-Rear Acceleration Sensor Upper Limit Abnormality/Right-Rear Acceleration Sensor Lower Limit Abnormality/Right-Rear Acceleration Sensor Difference Abnormality")]
+    [Manufacturer(Manufacturers.Honda, "Right-Rear Acceleration Sensor Upper Limit Abnormality/Right-Rear Acceleration Sensor Lower Limit Abnormality/Right-Rear Acceleration Sensor Difference Abnormality")]
+    C1653 = 0x5653,
     /// <summary>
     /// Hybrid Powertrain Control Module
     /// </summary>
@@ -59664,6 +59939,30 @@ public enum DTC
     /// </summary>
     [Category(Categories.Chassis), Description("Steering Angle Sensor")]
     C1B00 = 0x5B00,
+    /// <summary>
+    /// APP Sensor Signal Failure
+    /// </summary>
+    [Category(Categories.Chassis), Description("APP Sensor Signal Failure")]
+    [Manufacturer(Manufacturers.Honda, "APP Sensor Signal Failure")]
+    C1C00 = 0x5C00,
+    /// <summary>
+    /// Neutral Sensor Failure
+    /// </summary>
+    [Category(Categories.Chassis), Description("Neutral Sensor Failure")]
+    [Manufacturer(Manufacturers.Honda, "Neutral Sensor Failure")]
+    C1C20 = 0x5C20,
+    /// <summary>
+    /// Reverse Information Failure (Stuck)
+    /// </summary>
+    [Category(Categories.Chassis), Description("Reverse Information Failure (Stuck)")]
+    [Manufacturer(Manufacturers.Honda, "Reverse Information Failure (Stuck)")]
+    C1C21 = 0x5C21,
+    /// <summary>
+    /// Neutral Sensor Failure
+    /// </summary>
+    [Category(Categories.Chassis), Description("Neutral Sensor Failure")]
+    [Manufacturer(Manufacturers.Honda, "Neutral Sensor Failure")]
+    C1C22 = 0x5C22,
     /// <summary>
     /// Park Brake Apply Switch Circuit Short To Ground
     /// </summary>
@@ -62508,11 +62807,13 @@ public enum DTC
     /// Diagnosis Sensor Unit
     /// </summary>
     [Category(Categories.Body), Description("Diagnosis Sensor Unit")]
+    [Manufacturer(Manufacturers.Honda, "BCM (Body Control Module) Internal Error (EEPROM Error)")]
     B1002 = 0x9002,
     /// <summary>
     /// Diagnosis Sensor Unit
     /// </summary>
     [Category(Categories.Body), Description("Diagnosis Sensor Unit")]
+    [Manufacturer(Manufacturers.Honda, "BCM (Body Control Module) PROGRAM Error")]
     B1003 = 0x9003,
     /// <summary>
     /// Diagnosis Sensor Unit
@@ -62648,6 +62949,7 @@ public enum DTC
     /// Diagnosis Sensor Unit
     /// </summary>
     [Category(Categories.Body), Description("Diagnosis Sensor Unit")]
+    [Manufacturer(Manufacturers.Honda, "Rear Wiper Motor(Park) Signal Error")]
     B1028 = 0x9028,
     /// <summary>
     /// Diagnosis Sensor Unit
@@ -62673,6 +62975,7 @@ public enum DTC
     /// SDARS Satellite Antenna Short
     /// </summary>
     [Category(Categories.Body), Description("SDARS Satellite Antenna Short")]
+    [Manufacturer(Manufacturers.Honda, "CDS (Collision Detection Signal) Signal Error")]
     B1032 = 0x9032,
     /// <summary>
     /// Crash Zone Sensor
@@ -62693,6 +62996,7 @@ public enum DTC
     /// Crash Zone Sensor
     /// </summary>
     [Category(Categories.Body), Description("Crash Zone Sensor")]
+    [Manufacturer(Manufacturers.Honda, "IG1 Power Supply Circuit Malfunction")]
     B1036 = 0x9036,
     /// <summary>
     /// Crash Zone Sensor 1
@@ -62703,11 +63007,13 @@ public enum DTC
     /// Crash Zone Sensor
     /// </summary>
     [Category(Categories.Body), Description("Crash Zone Sensor")]
+    [Manufacturer(Manufacturers.Honda, "IMMOBILIZER F-CAN Authentication ID Not Received")]
     B1038 = 0x9038,
     /// <summary>
     /// Crash Zone Sensor 1
     /// </summary>
     [Category(Categories.Body), Description("Crash Zone Sensor 1")]
+    [Manufacturer(Manufacturers.Honda, "IMMOBILIZER F-CAN Authentication ID Unmatch")]
     B1039 = 0x9039,
     /// <summary>
     /// Right Front Seat Heater Sensor
@@ -62733,21 +63039,25 @@ public enum DTC
     /// Crash Zone Sensor
     /// </summary>
     [Category(Categories.Body), Description("Crash Zone Sensor")]
+    [Manufacturer(Manufacturers.Honda, "BCM (Body Control Module) Lost Communication With Front Wiper")]
     B1040 = 0x9040,
     /// <summary>
     /// Crash Zone Sensor 1
     /// </summary>
     [Category(Categories.Body), Description("Crash Zone Sensor 1")]
+    [Manufacturer(Manufacturers.Honda, "Front Wiper Motor Malfunction")]
     B1041 = 0x9041,
     /// <summary>
     /// Diagnosis Sensor Unit
     /// </summary>
     [Category(Categories.Body), Description("Diagnosis Sensor Unit")]
+    [Manufacturer(Manufacturers.Honda, "Front Wiper Security Line Error")]
     B1042 = 0x9042,
     /// <summary>
     /// Diagnosis Sensor Unit
     /// </summary>
     [Category(Categories.Body), Description("Diagnosis Sensor Unit")]
+    [Manufacturer(Manufacturers.Honda, "Front Wiper Unit Internal Error (EEPROM Error)")]
     B1043 = 0x9043,
     /// <summary>
     /// Diagnosis Sensor Unit
@@ -62993,6 +63303,7 @@ public enum DTC
     /// Left Front Instrument Panel Audio Output 7 Circuit
     /// </summary>
     [Category(Categories.Body), Description("Left Front Instrument Panel Audio Output 7 Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Head Light Low Light Source Abnormality")]
     B1085 = 0x9085,
     /// <summary>
     /// Front Pre-Tensioner Left Open
@@ -63433,16 +63744,19 @@ public enum DTC
     /// Diagnosis Sensor Unit
     /// </summary>
     [Category(Categories.Body), Description("Diagnosis Sensor Unit")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Power Window Motor A Pulse Malfunction")]
     B1125 = 0x9125,
     /// <summary>
     /// Diagnosis Sensor Unit
     /// </summary>
     [Category(Categories.Body), Description("Diagnosis Sensor Unit")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Power Window Motor B Pulse Malfunction")]
     B1126 = 0x9126,
     /// <summary>
     /// Diagnosis Sensor Unit
     /// </summary>
     [Category(Categories.Body), Description("Diagnosis Sensor Unit")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Door Lock Key Cylinder Switch Malfunction")]
     B1127 = 0x9127,
     /// <summary>
     /// Driver Side Door Lock Switch Signal Error
@@ -63453,6 +63767,7 @@ public enum DTC
     /// Front Right Side Air Bag Module Open
     /// </summary>
     [Category(Categories.Body), Description("Front Right Side Air Bag Module Open")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Door Lock Knob Switch Malfunction")]
     B1129 = 0x9129,
     /// <summary>
     /// Ignition On Relay 'B' Circuit Short To Battery
@@ -63473,11 +63788,13 @@ public enum DTC
     /// Front Right Side Air Bag Module Short
     /// </summary>
     [Category(Categories.Body), Description("Front Right Side Air Bag Module Short")]
+    [Manufacturer(Manufacturers.Honda, "Front Passenger's Power Window Motor A Pulse Malfunction")]
     B1130 = 0x9130,
     /// <summary>
     /// Front Right Side Air Bag Module Short
     /// </summary>
     [Category(Categories.Body), Description("Front Right Side Air Bag Module Short")]
+    [Manufacturer(Manufacturers.Honda, "Front Passenger's Power Window Motor B Pulse Malfunction")]
     B1131 = 0x9131,
     /// <summary>
     /// Front Right Side Air Bag Module Short
@@ -63548,6 +63865,7 @@ public enum DTC
     /// Diagnosis Sensor Unit
     /// </summary>
     [Category(Categories.Body), Description("Diagnosis Sensor Unit")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Power Window Position Detect Circuit Malfunction")]
     B1140 = 0x9140,
     /// <summary>
     /// Diagnosis Sensor Unit
@@ -63558,6 +63876,7 @@ public enum DTC
     /// Diagnosis Sensor Unit
     /// </summary>
     [Category(Categories.Body), Description("Diagnosis Sensor Unit")]
+    [Manufacturer(Manufacturers.Honda, "Door Multiplex Control Unit Lost Communication With Front Passenger's Power Window Switch (UART Line Open)")]
     B1142 = 0x9142,
     /// <summary>
     /// Diagnosis Sensor Unit
@@ -63573,6 +63892,7 @@ public enum DTC
     /// Right Side Curtain Air Bag Module Open
     /// </summary>
     [Category(Categories.Body), Description("Right Side Curtain Air Bag Module Open")]
+    [Manufacturer(Manufacturers.Honda, "Front Passenger's Power Window Position Detect Circuit Malfunction")]
     B1145 = 0x9145,
     /// <summary>
     /// Right Side Curtain Air Bag Module Short
@@ -63743,11 +64063,13 @@ public enum DTC
     /// Drivers Door Ajar Switch General Electrical Failure
     /// </summary>
     [Category(Categories.Body), Description("Drivers Door Ajar Switch General Electrical Failure")]
+    [Manufacturer(Manufacturers.Honda, "Fuel Level Sensor (Fuel Gauge Sending Unit) Circuit Malfunction")]
     B1175 = 0x9175,
     /// <summary>
     /// Passenger Door Ajar Switch General Electrical Failure
     /// </summary>
     [Category(Categories.Body), Description("Passenger Door Ajar Switch General Electrical Failure")]
+    [Manufacturer(Manufacturers.Honda, "Fuel Level Sensor (Fuel Gauge Sending Unit) Circuit Short")]
     B1176 = 0x9176,
     /// <summary>
     /// Right Front Seat Belt Buckle Pre-Tensioner Open
@@ -63848,6 +64170,7 @@ public enum DTC
     /// Right Side Front Curtain Air Bag Module Ground Short
     /// </summary>
     [Category(Categories.Body), Description("Right Side Front Curtain Air Bag Module Ground Short")]
+    [Manufacturer(Manufacturers.Honda, "Gauge Control Module Lost Communication With Audio Remote Switch (LIN Bus Connected)")]
     B1195 = 0x9195,
     /// <summary>
     /// Right Side Front Curtain Air Bag Module Short
@@ -64063,6 +64386,7 @@ public enum DTC
     /// Passenger Seat Cushion Temperature Sensor
     /// </summary>
     [Category(Categories.Body), Description("Passenger Seat Cushion Temperature Sensor")]
+    [Manufacturer(Manufacturers.Honda, "Climate Control Unit LIN Communication Bus Line Error")]
     B120A = 0x920A,
     /// <summary>
     /// Passenger Seat Back Temperature Sensor
@@ -64133,11 +64457,13 @@ public enum DTC
     /// Keypad Illumination Output Circuit Short to Ground
     /// </summary>
     [Category(Categories.Body), Description("Keypad Illumination Output Circuit Short to Ground")]
+    [Manufacturer(Manufacturers.Honda, "An Open in the Mode Control Motor Circuit")]
     B121A = 0x921A,
     /// <summary>
     /// Keypad Input Switch
     /// </summary>
     [Category(Categories.Body), Description("Keypad Input Switch")]
+    [Manufacturer(Manufacturers.Honda, "A Short in the Mode Control Motor Circuit")]
     B121B = 0x921B,
     /// <summary>
     /// Rear HVAC Mode Control Input Circuit Short
@@ -64288,11 +64614,13 @@ public enum DTC
     /// Start Button Mode Indicator Circuit Short
     /// </summary>
     [Category(Categories.Body), Description("Start Button Mode Indicator Circuit Short")]
+    [Manufacturer(Manufacturers.Honda, "A Problem in the Mode Control Motor Circuit, Linkage, Door, or Motor")]
     B1240 = 0x9240,
     /// <summary>
     /// Body ECU Switch Circuit Diagnosis
     /// </summary>
     [Category(Categories.Body), Description("Body ECU Switch Circuit Diagnosis")]
+    [Manufacturer(Manufacturers.Honda, "A Problem in the Blower Motor Circuit")]
     B1241 = 0x9241,
     /// <summary>
     /// Wireless Door Lock Tuner Circuit Malfunction
@@ -64513,6 +64841,7 @@ public enum DTC
     /// Microphone 1 Input Signal Circuit
     /// </summary>
     [Category(Categories.Body), Description("Microphone 1 Input Signal Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Headlight AUTO Position Circuit Malfunction")]
     B1277 = 0x9277,
     /// <summary>
     /// Headlight Switch ON Position Circuit Malfunction
@@ -64558,6 +64887,7 @@ public enum DTC
     /// Rear Seat Entertainment Input Signal Circuit 
     /// </summary>
     [Category(Categories.Body), Description("Rear Seat Entertainment Input Signal Circuit ")]
+    [Manufacturer(Manufacturers.Honda, "Turn Signal Switch Circuit Malfunction")]
     B1280 = 0x9280,
     /// <summary>
     /// Front Wiper Switch MIST Position Circuit Malfunction
@@ -64568,6 +64898,7 @@ public enum DTC
     /// Front Display Not Responding
     /// </summary>
     [Category(Categories.Body), Description("Front Display Not Responding")]
+    [Manufacturer(Manufacturers.Honda, "Front Wiper INT (AUTO) Position Circuit Malfunction")]
     B1282 = 0x9282,
     /// <summary>
     /// Front Wiper Switch LOW Position Circuit Malfunction
@@ -64855,14 +65186,64 @@ public enum DTC
     [Category(Categories.Body), Description(" Start/Stop Eco-Start Enable Button Circuit Short To Ground")]
     B12CB = 0x92CB,
     /// <summary>
+    /// Power Control Unit (Body Control Module) IG1A Circuit Error
+    /// </summary>
+    [Category(Categories.Body), Description("Power Control Unit (Body Control Module) IG1A Circuit Error")]
+    [Manufacturer(Manufacturers.Honda, "Power Control Unit (Body Control Module) IG1A Circuit Error")]
+    B12D0 = 0x92D0,
+    /// <summary>
+    /// Power Control Unit (Body Control Module) IG1B Circuit Error
+    /// </summary>
+    [Category(Categories.Body), Description("Power Control Unit (Body Control Module) IG1B Circuit Error")]
+    [Manufacturer(Manufacturers.Honda, "Power Control Unit (Body Control Module) IG1B Circuit Error")]
+    B12D1 = 0x92D1,
+    /// <summary>
+    /// Power Control Unit (Body Control Module) IG2 Circuit Error
+    /// </summary>
+    [Category(Categories.Body), Description("Power Control Unit (Body Control Module) IG2 Circuit Error")]
+    [Manufacturer(Manufacturers.Honda, "Power Control Unit (Body Control Module) IG2 Circuit Error")]
+    B12D2 = 0x92D2,
+    /// <summary>
+    /// Power Control Unit (Body Control Module) IG Latch Circuit Error
+    /// </summary>
+    [Category(Categories.Body), Description("Power Control Unit (Body Control Module) IG Latch Circuit Error")]
+    [Manufacturer(Manufacturers.Honda, "Power Control Unit (Body Control Module) IG Latch Circuit Error")]
+    B12D3 = 0x92D3,
+    /// <summary>
     /// Off Road Indicator Circuit
     /// </summary>
     [Category(Categories.Body), Description("Off Road Indicator Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Electric Steering Lock Switch Internal Error")]
     B12E0 = 0x92E0,
+    /// <summary>
+    /// Electric Steering Lock Motor Internal Error
+    /// </summary>
+    [Category(Categories.Body), Description("Electric Steering Lock Motor Internal Error")]
+    [Manufacturer(Manufacturers.Honda, "Electric Steering Lock Motor Internal Error")]
+    B12E1 = 0x92E1,
+    /// <summary>
+    /// Electric Steering Lock Low Level Failure of MTRCUT1
+    /// </summary>
+    [Category(Categories.Body), Description("Electric Steering Lock Low Level Failure of MTRCUT1")]
+    [Manufacturer(Manufacturers.Honda, "Electric Steering Lock Low Level Failure of MTRCUT1")]
+    B12E2 = 0x92E2,
+    /// <summary>
+    /// Electric Steering Lock High Level Failure of MTRCUT1
+    /// </summary>
+    [Category(Categories.Body), Description("Electric Steering Lock High Level Failure of MTRCUT1")]
+    [Manufacturer(Manufacturers.Honda, "Electric Steering Lock High Level Failure of MTRCUT1")]
+    B12E3 = 0x92E3,
+    /// <summary>
+    /// Electric Steering Lock High Level Failure of MTRCUT2
+    /// </summary>
+    [Category(Categories.Body), Description("Electric Steering Lock High Level Failure of MTRCUT2")]
+    [Manufacturer(Manufacturers.Honda, "Electric Steering Lock High Level Failure of MTRCUT2")]
+    B12E4 = 0x92E4,
     /// <summary>
     /// Off Road Mode Select Switch
     /// </summary>
     [Category(Categories.Body), Description("Off Road Mode Select Switch")]
+    [Manufacturer(Manufacturers.Honda, "Incorrect Assembly of Control Unit for Electric Steering Lock Equipped Vehicle")]
     B12E5 = 0x92E5,
     /// <summary>
     /// Liftgate/Tailgate Control/Release Switch
@@ -64874,6 +65255,12 @@ public enum DTC
     /// </summary>
     [Category(Categories.Body), Description("Radio Frequency Receiver Invalid/Incompatible Configuration")]
     B12EA = 0x92EA,
+    /// <summary>
+    /// Power Control Unit (Body Control Module) Lost Communication With Electric Steering Lock
+    /// </summary>
+    [Category(Categories.Body), Description("Power Control Unit (Body Control Module) Lost Communication With Electric Steering Lock")]
+    [Manufacturer(Manufacturers.Honda, "Power Control Unit (Body Control Module) Lost Communication With Electric Steering Lock")]
+    B12F0 = 0x92F0,
     /// <summary>
     /// Power Door Lock Circuit Failure
     /// </summary>
@@ -66788,6 +67175,7 @@ public enum DTC
     /// Lamp Park Input Circuit Failure
     /// </summary>
     [Category(Categories.Body), Description("Lamp Park Input Circuit Failure")]
+    [Manufacturer(Manufacturers.Honda, "Auto Light Sensor Error")]
     B1575 = 0x9575,
     /// <summary>
     /// Lamp Park Input Circuit Open
@@ -67133,11 +67521,13 @@ public enum DTC
     /// PATS Received Incorrect Key-Code From Ignition Key Transponder
     /// </summary>
     [Category(Categories.Body), Description("PATS Received Incorrect Key-Code From Ignition Key Transponder")]
+    [Manufacturer(Manufacturers.Honda, "Keyless Access Control Unit (Body Control Module) Internal (CPU) Error")]
     B1601 = 0x9601,
     /// <summary>
     /// PATS Received Invalid Format Of Key-Code From Ignition Key Transponder
     /// </summary>
     [Category(Categories.Body), Description("PATS Received Invalid Format Of Key-Code From Ignition Key Transponder")]
+    [Manufacturer(Manufacturers.Honda, "Keyless Access Control Unit (Body Control Module) Internal (EEPROM) Error")]
     B1602 = 0x9602,
     /// <summary>
     /// Lamp Anti-Theft Indicator Circuit Failure
@@ -67348,6 +67738,7 @@ public enum DTC
     /// Lost Communication With Rear Airbag Sensor Right
     /// </summary>
     [Category(Categories.Body), Description("Lost Communication With Rear Airbag Sensor Right")]
+    [Manufacturer(Manufacturers.Honda, "MTR CONT Signal Error")]
     B1632 = 0x9632,
     /// <summary>
     /// Rear Airbag Sensor Assembly Right Initialization Incomplete
@@ -67418,6 +67809,7 @@ public enum DTC
     /// Mirror Passenger Left Circuit Open
     /// </summary>
     [Category(Categories.Body), Description("Mirror Passenger Left Circuit Open")]
+    [Manufacturer(Manufacturers.Honda, "RF Unit Not Connected")]
     B1640 = 0x9640,
     /// <summary>
     /// Mirror Passenger Left Circuit Short To Battery
@@ -67443,21 +67835,25 @@ public enum DTC
     /// Mirror Passenger Right Circuit Short To Battery
     /// </summary>
     [Category(Categories.Body), Description("Mirror Passenger Right Circuit Short To Battery")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Door LF Antenna Circuit Short")]
     B1645 = 0x9645,
     /// <summary>
     /// Mirror Passenger Right Circuit Short To Ground
     /// </summary>
     [Category(Categories.Body), Description("Mirror Passenger Right Circuit Short To Ground")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Door LF Antenna Circuit Open")]
     B1646 = 0x9646,
     /// <summary>
     /// Lost Communication With Side Satellite Sensor Bus Left
     /// </summary>
     [Category(Categories.Body), Description("Lost Communication With Side Satellite Sensor Bus Left")]
+    [Manufacturer(Manufacturers.Honda, "Passenger's Door LF Antenna Circuit Short")]
     B1647 = 0x9647,
     /// <summary>
     /// Seat Driver Recline Forward Circuit Open
     /// </summary>
     [Category(Categories.Body), Description("Seat Driver Recline Forward Circuit Open")]
+    [Manufacturer(Manufacturers.Honda, "Passenger's Door LF Antenna Circuit Open")]
     B1648 = 0x9648,
     /// <summary>
     /// Seat Driver Recline Forward Circuit Short To Battery
@@ -67513,16 +67909,19 @@ public enum DTC
     /// Seat Driver Rear Up Circuit Short To Battery
     /// </summary>
     [Category(Categories.Body), Description("Seat Driver Rear Up Circuit Short To Battery")]
+    [Manufacturer(Manufacturers.Honda, "Rear Bumper LF Antenna Circuit Short")]
     B1657 = 0x9657,
     /// <summary>
     /// Seat Driver Rear Up Circuit Short To Ground
     /// </summary>
     [Category(Categories.Body), Description("Seat Driver Rear Up Circuit Short To Ground")]
+    [Manufacturer(Manufacturers.Honda, "Rear Bumper LF Antenna Circuit Open")]
     B1658 = 0x9658,
     /// <summary>
     /// Seat Driver Front Up Circuit Failure
     /// </summary>
     [Category(Categories.Body), Description("Seat Driver Front Up Circuit Failure")]
+    [Manufacturer(Manufacturers.Honda, "Front Interior LF Antenna Circuit Short")]
     B1659 = 0x9659,
     /// <summary>
     /// Occupant Detection Sensor Zero Point Calibration Incomplete
@@ -67548,6 +67947,7 @@ public enum DTC
     /// Passenger Airbag ON / OFF Indicator Circuit Malfunction
     /// </summary>
     [Category(Categories.Body), Description("Passenger Airbag ON / OFF Indicator Circuit Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "Front Interior LF Antenna Circuit Open")]
     B1660 = 0x9660,
     /// <summary>
     /// Seat Driver Front Up Circuit Short To Battery
@@ -67563,11 +67963,13 @@ public enum DTC
     /// Seat Driver Front Up/Down Motor Stalled
     /// </summary>
     [Category(Categories.Body), Description("Seat Driver Front Up/Down Motor Stalled")]
+    [Manufacturer(Manufacturers.Honda, "Rear Interior LF Antenna Circuit Short")]
     B1663 = 0x9663,
     /// <summary>
     /// Seat Driver Rear Up/Down Motor Stalled
     /// </summary>
     [Category(Categories.Body), Description("Seat Driver Rear Up/Down Motor Stalled")]
+    [Manufacturer(Manufacturers.Honda, "Rear Interior LF Antenna Circuit Open")]
     B1664 = 0x9664,
     /// <summary>
     /// Seat Driver Forward/Backward Motor Stalled
@@ -67583,11 +67985,13 @@ public enum DTC
     /// Mirror Driver Up/Down Motor Stalled
     /// </summary>
     [Category(Categories.Body), Description("Mirror Driver Up/Down Motor Stalled")]
+    [Manufacturer(Manufacturers.Honda, "Rear Shelf LF Antenna Circuit Short")]
     B1667 = 0x9667,
     /// <summary>
     /// Mirror Driver Right/Left Motor Stalled
     /// </summary>
     [Category(Categories.Body), Description("Mirror Driver Right/Left Motor Stalled")]
+    [Manufacturer(Manufacturers.Honda, "Rear Shelf LF Antenna Circuit Open")]
     B1668 = 0x9668,
     /// <summary>
     /// Mirror Passenger Up/Down Motor Stalled
@@ -69413,6 +69817,7 @@ public enum DTC
     /// Air Bag Passenger Pressure Switch Circuit Failure
     /// </summary>
     [Category(Categories.Body), Description("Air Bag Passenger Pressure Switch Circuit Failure")]
+    [Manufacturer(Manufacturers.Honda, "Backup Control Antenna Open or Short")]
     B1926 = 0x9926,
     /// <summary>
     /// Passenger Side Airbag Fault
@@ -71143,7 +71548,74 @@ public enum DTC
     /// Horn Relay Circuit
     /// </summary>
     [Category(Categories.Body), Description("Horn Relay Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Heater Thermistor Circuit Open")]
     B1C55 = 0x9C55,
+    /// <summary>
+    /// Driver's Heater Thermistor Circuit Short
+    /// </summary>
+    [Category(Categories.Body), Description("Driver's Heater Thermistor Circuit Short")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Heater Thermistor Circuit Short")]
+    B1C56 = 0x9C56,
+    /// <summary>
+    /// Front Passenger's Heater Thermistor Circuit Open
+    /// </summary>
+    [Category(Categories.Body), Description("Front Passenger's Heater Thermistor Circuit Open")]
+    [Manufacturer(Manufacturers.Honda, "Front Passenger's Heater Thermistor Circuit Open")]
+    B1C57 = 0x9C57,
+    /// <summary>
+    /// Front Passenger's Heater Thermistor Circuit Short
+    /// </summary>
+    [Category(Categories.Body), Description("Front Passenger's Heater Thermistor Circuit Short")]
+    [Manufacturer(Manufacturers.Honda, "Front Passenger's Heater Thermistor Circuit Short")]
+    B1C58 = 0x9C58,
+    /// <summary>
+    /// Driver's Heater Current Abnormal High
+    /// </summary>
+    [Category(Categories.Body), Description("Driver's Heater Current Abnormal High")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Heater Current Abnormal High")]
+    B1C60 = 0x9C60,
+    /// <summary>
+    /// Driver's Heater Current Abnormal Low
+    /// </summary>
+    [Category(Categories.Body), Description("Driver's Heater Current Abnormal Low")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Heater Current Abnormal Low")]
+    B1C61 = 0x9C61,
+    /// <summary>
+    /// Front Passenger's Heater Current Abnormal High
+    /// </summary>
+    [Category(Categories.Body), Description("Front Passenger's Heater Current Abnormal High")]
+    [Manufacturer(Manufacturers.Honda, "Front Passenger's Heater Current Abnormal High")]
+    B1C62 = 0x9C62,
+    /// <summary>
+    /// Front Passenger's Heater Current Abnormal Low
+    /// </summary>
+    [Category(Categories.Body), Description("Front Passenger's Heater Current Abnormal Low")]
+    [Manufacturer(Manufacturers.Honda, "Front Passenger's Heater Current Abnormal Low")]
+    B1C63 = 0x9C63,
+    /// <summary>
+    /// Driver's Heater Not Heating
+    /// </summary>
+    [Category(Categories.Body), Description("Driver's Heater Not Heating")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Heater Not Heating")]
+    B1C68 = 0x9C68,
+    /// <summary>
+    /// Front Passenger's Heater Not Heating
+    /// </summary>
+    [Category(Categories.Body), Description("Front Passenger's Heater Not Heating")]
+    [Manufacturer(Manufacturers.Honda, "Front Passenger's Heater Not Heating")]
+    B1C69 = 0x9C69,
+    /// <summary>
+    /// Driver's Main Heater Switch Failure
+    /// </summary>
+    [Category(Categories.Body), Description("Driver's Main Heater Switch Failure")]
+    [Manufacturer(Manufacturers.Honda, "Driver's Main Heater Switch Failure")]
+    B1C70 = 0x9C70,
+    /// <summary>
+    /// Front Passenger's Main Heater Switch Failure
+    /// </summary>
+    [Category(Categories.Body), Description("Front Passenger's Main Heater Switch Failure")]
+    [Manufacturer(Manufacturers.Honda, "Front Passenger's Main Heater Switch Failure")]
+    B1C71 = 0x9C71,
     /// <summary>
     /// Rear Wiper Relay Circuit
     /// </summary>
@@ -73570,6 +74042,18 @@ public enum DTC
     [Category(Categories.Body), Description("Occupant Classification System Obstruction")]
     B229B = 0xA29B,
     /// <summary>
+    /// Wireless Charger Unit Failure
+    /// </summary>
+    [Category(Categories.Body), Description("Wireless Charger Unit Failure")]
+    [Manufacturer(Manufacturers.Honda, "Wireless Charger Unit Failure")]
+    B22A0 = 0xA2A0,
+    /// <summary>
+    /// Wireless Charger Unit ACC Input Circuit Failure
+    /// </summary>
+    [Category(Categories.Body), Description("Wireless Charger Unit ACC Input Circuit Failure")]
+    [Manufacturer(Manufacturers.Honda, "Wireless Charger Unit ACC Input Circuit Failure")]
+    B22A1 = 0xA2A1,
+    /// <summary>
     /// ECU Internal Performance Radio Frequency Module
     /// </summary>
     [Category(Categories.Body), Description("ECU Internal Performance Radio Frequency Module")]
@@ -73888,6 +74372,7 @@ public enum DTC
     /// Driver Memory Power Switch Indicator Circuit Short to Battery
     /// </summary>
     [Category(Categories.Body), Description("Driver Memory Power Switch Indicator Circuit Short to Battery")]
+    [Manufacturer(Manufacturers.Honda, "Rain Light Sensor Unit Internal Error (EEPROM Error)")]
     B2352 = 0xA352,
     /// <summary>
     /// Driver Mirror Power Driver Circuit Short Ground
@@ -73978,11 +74463,13 @@ public enum DTC
     /// Driver Seat Horizontal Position Sensor Circuit
     /// </summary>
     [Category(Categories.Body), Description("Driver Seat Horizontal Position Sensor Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Rain Sensor Malfunction")]
     B2375 = 0xA375,
     /// <summary>
     /// Seat Assembly Horizontal Position Sensor Range/Performance
     /// </summary>
     [Category(Categories.Body), Description("Seat Assembly Horizontal Position Sensor Range/Performance")]
+    [Manufacturer(Manufacturers.Honda, "Light Sensing Malfunction")]
     B2376 = 0xA376,
     /// <summary>
     /// Data Communication Radio Input Circuit High
@@ -75423,11 +75910,13 @@ public enum DTC
     /// No Latch Signal Sensed on Closing and Door Reversed
     /// </summary>
     [Category(Categories.Body), Description("No Latch Signal Sensed on Closing and Door Reversed")]
+    [Manufacturer(Manufacturers.Honda, "Parking Sensor CPU Error")]
     B2601 = 0xA601,
     /// <summary>
     /// DRL Relay Control Circuit Shorted To Ground
     /// </summary>
     [Category(Categories.Body), Description("DRL Relay Control Circuit Shorted To Ground")]
+    [Manufacturer(Manufacturers.Honda, "Parking Sensor EEPROM Error")]
     B2602 = 0xA602,
     /// <summary>
     /// DRL Relay Control Circuit Shorted To Battery Positive Voltage
@@ -75498,61 +75987,97 @@ public enum DTC
     /// Passenger Compartment Dimming 1 Circuit
     /// </summary>
     [Category(Categories.Body), Description("Passenger Compartment Dimming 1 Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Front 1st Sensor Failure")]
     B2610 = 0xA610,
     /// <summary>
     /// ACC Relay
     /// </summary>
     [Category(Categories.Body), Description("ACC Relay")]
+    [Manufacturer(Manufacturers.Honda, "Front 2nd Sensor Failure")]
     B2611 = 0xA611,
     /// <summary>
     /// Steering Status
     /// </summary>
     [Category(Categories.Body), Description("Steering Status")]
+    [Manufacturer(Manufacturers.Honda, "Front 3rd Sensor Failure")]
     B2612 = 0xA612,
+    /// <summary>
+    /// Front 4th Sensor Failure
+    /// </summary>
+    [Category(Categories.Body), Description("Front 4th Sensor Failure")]
+    [Manufacturer(Manufacturers.Honda, "Front 4th Sensor Failure")]
+    B2613 = 0xA613,
     /// <summary>
     /// ACC Relay Circuit
     /// </summary>
     [Category(Categories.Body), Description("ACC Relay Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Rear 1st Sensor Failure")]
     B2614 = 0xA614,
     /// <summary>
     /// Passenger Compartment Dimming 2 Circuit
     /// </summary>
     [Category(Categories.Body), Description("Passenger Compartment Dimming 2 Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Rear 2nd Sensor Failure")]
     B2615 = 0xA615,
     /// <summary>
     /// Ignition Relay Circuit
     /// </summary>
     [Category(Categories.Body), Description("Ignition Relay Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Rear 3rd Sensor Failure")]
     B2616 = 0xA616,
     /// <summary>
     /// Starter Relay Circuit
     /// </summary>
     [Category(Categories.Body), Description("Starter Relay Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Rear 4th Sensor Failure")]
     B2617 = 0xA617,
     /// <summary>
     /// Body Control Module Faulty
     /// </summary>
     [Category(Categories.Body), Description("Body Control Module Faulty")]
+    [Manufacturer(Manufacturers.Honda, "Front 1st Sensor Data Failure")]
     B2618 = 0xA618,
     /// <summary>
     /// Body Control Module Faulty
     /// </summary>
     [Category(Categories.Body), Description("Body Control Module Faulty")]
+    [Manufacturer(Manufacturers.Honda, "Front 2nd Sensor Data Failure")]
     B2619 = 0xA619,
     /// <summary>
     /// Push-Button Ignition Switch
     /// </summary>
     [Category(Categories.Body), Description("Push-Button Ignition Switch")]
+    [Manufacturer(Manufacturers.Honda, "Front 3rd Sensor Data Failure")]
     B261A = 0xA61A,
+    /// <summary>
+    /// Front 4th Sensor Data Failure
+    /// </summary>
+    [Category(Categories.Body), Description("Front 4th Sensor Data Failure")]
+    [Manufacturer(Manufacturers.Honda, "Front 4th Sensor Data Failure")]
+    B261B = 0xA61B,
+    /// <summary>
+    /// Rear 1st Sensor Data Failure
+    /// </summary>
+    [Category(Categories.Body), Description("Rear 1st Sensor Data Failure")]
+    [Manufacturer(Manufacturers.Honda, "Rear 1st Sensor Data Failure")]
+    B261C = 0xA61C,
+    /// <summary>
+    /// Rear 2nd Sensor Data Failure
+    /// </summary>
+    [Category(Categories.Body), Description("Rear 2nd Sensor Data Failure")]
+    [Manufacturer(Manufacturers.Honda, "Rear 2nd Sensor Data Failure")]
+    B261D = 0xA61D,
     /// <summary>
     /// Vehicle Type
     /// </summary>
     [Category(Categories.Body), Description("Vehicle Type")]
+    [Manufacturer(Manufacturers.Honda, "Rear 3rd Sensor Data Failure")]
     B261E = 0xA61E,
     /// <summary>
     /// ASCD Cancel/Clutch Switch
     /// </summary>
     [Category(Categories.Body), Description("ASCD Cancel/Clutch Switch")]
+    [Manufacturer(Manufacturers.Honda, "Rear 4th Sensor Data Failure")]
     B261F = 0xA61F,
     /// <summary>
     /// ECU Power Source Circuit Malfunction
@@ -75718,27 +76243,38 @@ public enum DTC
     /// Electric Compressor Voltage Main
     /// </summary>
     [Category(Categories.Body), Description("Electric Compressor Voltage Main")]
+    [Manufacturer(Manufacturers.Honda, "Front Sensor Power Failure")]
     B2646 = 0xA646,
     /// <summary>
     /// Ambient Light Sensor Circuit
     /// </summary>
     [Category(Categories.Body), Description("Ambient Light Sensor Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Rear Sensor Power Failure")]
     B2647 = 0xA647,
     /// <summary>
     /// Ambient Light Sensor Circuit
     /// </summary>
     [Category(Categories.Body), Description("Ambient Light Sensor Circuit")]
+    [Manufacturer(Manufacturers.Honda, "Front Sensor Signal Short to Ground")]
     B2648 = 0xA648,
     /// <summary>
     /// Electric Compressor Over Load
     /// </summary>
     [Category(Categories.Body), Description("Electric Compressor Over Load")]
+    [Manufacturer(Manufacturers.Honda, "Rear Sensor Signal Short to Ground")]
     B2649 = 0xA649,
     /// <summary>
     /// Electric Compressor Input Over Current
     /// </summary>
     [Category(Categories.Body), Description("Electric Compressor Input Over Current")]
+    [Manufacturer(Manufacturers.Honda, "Indicator Circuit Short to Power")]
     B264A = 0xA64A,
+    /// <summary>
+    /// Indicator Circuit Short to Ground
+    /// </summary>
+    [Category(Categories.Body), Description("Indicator Circuit Short to Ground")]
+    [Manufacturer(Manufacturers.Honda, "Indicator Circuit Short to Ground")]
+    B264B = 0xA64B,
     /// <summary>
     /// Electric Compressor Start Up Fail
     /// </summary>
@@ -75748,6 +76284,7 @@ public enum DTC
     /// Electric Compressor System Failure Stop
     /// </summary>
     [Category(Categories.Body), Description("Electric Compressor System Failure Stop")]
+    [Manufacturer(Manufacturers.Honda, "Front Sensor Combination Error")]
     B264D = 0xA64D,
     /// <summary>
     /// Electric Compressor Inside Power
@@ -76750,14 +77287,22 @@ public enum DTC
     [Category(Categories.Body), Description("A/C Auto Amplifier Configuration Not Implemented")]
     B27FF = 0xA7FF,
     /// <summary>
+    /// Internal Failure of the SRS Unit
+    /// </summary>
+    [Category(Categories.Body), Description("Internal Failure of the SRS Unit")]
+    [Manufacturer(Manufacturers.Honda, "Internal Failure of the SRS Unit")]
+    B2800 = 0xA800,
+    /// <summary>
     /// Quick Charge Activation Signal Error
     /// </summary>
     [Category(Categories.Body), Description("Quick Charge Activation Signal Error")]
+    [Manufacturer(Manufacturers.Honda, "Internal Failure of the SRS Unit")]
     B2801 = 0xA801,
     /// <summary>
     /// Quick Charge Isolation Signal Error
     /// </summary>
     [Category(Categories.Body), Description("Quick Charge Isolation Signal Error")]
+    [Manufacturer(Manufacturers.Honda, "Internal Failure of the SRS Unit")]
     B2802 = 0xA802,
     /// <summary>
     /// Quick Charge Permit Signal Error
@@ -76853,7 +77398,14 @@ public enum DTC
     /// Power Delivery Module Internal Malfunction
     /// </summary>
     [Category(Categories.Body), Description("Power Delivery Module Internal Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "SRS Unit Connector A Not Properly Installed")]
     B2840 = 0xA840,
+    /// <summary>
+    /// SRS Unit Connector B Not Properly Installed
+    /// </summary>
+    [Category(Categories.Body), Description("SRS Unit Connector B Not Properly Installed")]
+    [Manufacturer(Manufacturers.Honda, "SRS Unit Connector B Not Properly Installed")]
+    B2841 = 0xA841,
     /// <summary>
     /// Driver Blind Spot Warning Light Control Circuit Low
     /// </summary>
@@ -77293,6 +77845,7 @@ public enum DTC
     /// Key In Ignition Circuit High
     /// </summary>
     [Category(Categories.Body), Description("Key In Ignition Circuit High")]
+    [Manufacturer(Manufacturers.Honda, "Climate Control Unit Lost Communication With Front Panel (Climate Control Panel)")]
     B2964 = 0xA964,
     /// <summary>
     /// Audio System Speaker Circuit Fault
@@ -77368,12 +77921,19 @@ public enum DTC
     /// Deployable Steering Column Circuit Short To Ground
     /// </summary>
     [Category(Categories.Body), Description("Deployable Steering Column Circuit Short To Ground")]
+    [Manufacturer(Manufacturers.Honda, "An Open in the Recirculation Control Motor Circuit")]
     B2986 = 0xA986,
     /// <summary>
     /// Deployable Steering Column Circuit Resistance Low On Squib
     /// </summary>
     [Category(Categories.Body), Description("Deployable Steering Column Circuit Resistance Low On Squib")]
     B2987 = 0xA987,
+    /// <summary>
+    /// A Problem in the A/C Compressor Variable Capacity Control Solenoid Circuit
+    /// </summary>
+    [Category(Categories.Body), Description("A Problem in the A/C Compressor Variable Capacity Control Solenoid Circuit")]
+    [Manufacturer(Manufacturers.Honda, "A Problem in the A/C Compressor Variable Capacity Control Solenoid Circuit")]
+    B2988 = 0xA988,
     /// <summary>
     /// A/C Compressor Motor
     /// </summary>
@@ -77453,6 +78013,7 @@ public enum DTC
     /// VIN Reading
     /// </summary>
     [Category(Categories.Body), Description("VIN Reading")]
+    [Manufacturer(Manufacturers.Honda, "Temporary stop of Integrated Driver Support System (Detected Abnormal Signals)/ACC Brake Control Temporarily Prohibited")]
     B2A00 = 0xAA00,
     /// <summary>
     /// Telematics Antenna Circuit
@@ -77528,6 +78089,7 @@ public enum DTC
     /// Battery Voltage High
     /// </summary>
     [Category(Categories.Body), Description("Battery Voltage High")]
+    [Manufacturer(Manufacturers.Honda, "Brake Light Drive Relay Circuit Malfunction")]
     B2A10 = 0xAA10,
     /// <summary>
     /// Ignition Stuck in Start
@@ -77654,6 +78216,12 @@ public enum DTC
     /// </summary>
     [Category(Categories.Body), Description("FCW/LDW Camera Unit")]
     B2A60 = 0xAA60,
+    /// <summary>
+    /// LDW/RDM Switch Signal Circuit Short/Short to Power
+    /// </summary>
+    [Category(Categories.Body), Description("LDW/RDM Switch Signal Circuit Short/Short to Power")]
+    [Manufacturer(Manufacturers.Honda, "LDW/RDM Switch Signal Circuit Short/Short to Power")]
+    B2A70 = 0xAA70,
     /// <summary>
     /// Hood Ajar Switch Circuit
     /// </summary>
@@ -85098,6 +85666,7 @@ public enum DTC
     /// Lost Communications With Body Control Module
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Lost Communications With Body Control Module")]
+    [Manufacturer(Manufacturers.Honda, "Seat Heater Control Unit Lost Communication With Climate Control Unit")]
     U1064 = 0xD064,
     /// <summary>
     /// Loss Of Instrument Panel Integration Module Communication
@@ -85283,6 +85852,7 @@ public enum DTC
     /// Engine-A/T-ECU Time-out
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Engine-A/T-ECU Time-out")]
+    [Manufacturer(Manufacturers.Honda, "F-CAN Malfunction (PCM-ACM)")]
     U1101 = 0xD101,
     /// <summary>
     /// Invalid Or Missing Data For Primary Id
@@ -86133,16 +86703,19 @@ public enum DTC
     /// Invalid Or Missing Data For Seat Motion / Control
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Invalid Or Missing Data For Seat Motion / Control")]
+    [Manufacturer(Manufacturers.Honda, "IMA-CAN Malfunction (PCM-MCM-(Motor Control CPU))")]
     U1201 = 0xD201,
     /// <summary>
     /// Invalid Or Missing Data For Windows
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Invalid Or Missing Data For Windows")]
+    [Manufacturer(Manufacturers.Honda, "Motor Control Module (MCM) Internal Circuit Malfunction")]
     U1202 = 0xD202,
     /// <summary>
     /// Invalid Or Missing Data For Windows
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Invalid Or Missing Data For Windows")]
+    [Manufacturer(Manufacturers.Honda, "Motor Control Module (MCM) Internal Circuit Malfunction")]
     U1203 = 0xD203,
     /// <summary>
     /// IMA-CAN Malfunction
@@ -86153,16 +86726,19 @@ public enum DTC
     /// IMA-CAN Malfunction Battery Condition Monitor Module-Motor Control Module
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("IMA-CAN Malfunction Battery Condition Monitor Module-Motor Control Module")]
+    [Manufacturer(Manufacturers.Honda, "IMA-CAN Malfunction (Powertrain Control Module (PCM)-Motor Control Module (MCM))")]
     U1205 = 0xD205,
     /// <summary>
     /// Invalid Or Missing Data For Primary Id
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Invalid Or Missing Data For Primary Id")]
+    [Manufacturer(Manufacturers.Honda, "IMA-CAN Malfunction (BCM Module-MCM)")]
     U1206 = 0xD206,
     /// <summary>
     /// Lost Communication With Terrain Switch Bank Module
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Lost Communication With Terrain Switch Bank Module")]
+    [Manufacturer(Manufacturers.Honda, "IMA-CAN Malfunction (A/C Compressor Driver-BCM Module)")]
     U1207 = 0xD207,
     /// <summary>
     /// Invalid Or Missing Data For Seat Switches
@@ -86263,11 +86839,13 @@ public enum DTC
     /// XM Serial Communication
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("XM Serial Communication")]
+    [Manufacturer(Manufacturers.Honda, "DC-DC Converter Lost Communication with Motor Control Module (MCM)")]
     U1220 = 0xD220,
     /// <summary>
     /// Invalid Or Missing Data For Interior Lamp Outage
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Invalid Or Missing Data For Interior Lamp Outage")]
+    [Manufacturer(Manufacturers.Honda, "Motor Control Module (MCM) Lost Communication with DC-DC Converter")]
     U1221 = 0xD221,
     /// <summary>
     /// Invalid Or Missing Data For Interior Lamps
@@ -86453,6 +87031,7 @@ public enum DTC
     /// Single Ended Positive Circuit Failure
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Single Ended Positive Circuit Failure")]
+    [Manufacturer(Manufacturers.Honda, "Problem in PCM-to-ATFP Control Unit Communication Circuit")]
     U1260 = 0xD260,
     /// <summary>
     /// Single Ended Negative Circuit Failure
@@ -86503,6 +87082,7 @@ public enum DTC
     /// Power Tailgate Control Unit Lost Communication With Rear MICU
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Power Tailgate Control Unit Lost Communication With Rear MICU")]
+    [Manufacturer(Manufacturers.Honda, "Gauge Control Module Lost Communication With Passenger's MICU")]
     U1283 = 0xD283,
     /// <summary>
     /// Wireless Charger Unit Lost Communication With Keyless Access Control Unit
@@ -86523,6 +87103,7 @@ public enum DTC
     /// Power Seat Control Unit Lost Communication With Gauge Control Module
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Power Seat Control Unit Lost Communication With Gauge Control Module")]
+    [Manufacturer(Manufacturers.Honda, "Lost Communication With Gauge Control Module (VSP/NE Frame)")]
     U128D = 0xD28D,
     /// <summary>
     /// Wireless Charger Unit Lost Communication With Audio-Navigation Unit
@@ -86558,6 +87139,7 @@ public enum DTC
     /// F-CAN Malfunction EPS Control Unit and Driving Support System Control Unit
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("F-CAN Malfunction EPS Control Unit and Driving Support System Control Unit")]
+    [Manufacturer(Manufacturers.Honda, "F-CAN Malfunction (EPS Control Unit-Driving Support System Control Unit)/Gauge Control Module Lost Communication With Multipurpose Camera Unit")]
     U129C = 0xD29C,
     /// <summary>
     /// Lost Communication With The Precision All Wheel Steer Control Unit
@@ -86744,6 +87326,12 @@ public enum DTC
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Lost Communication With Transmission Control Module On Engine Control Module LIN Bus 1")]
     U135E = 0xD35E,
+    /// <summary>
+    /// Unmatch Combination of Millimeter Wave Radar-Multipurpose Camera Unit/Multipurpose Camera Unit Variant Incomplete
+    /// </summary>
+    [Category(Categories.NetworkCommunication), Description("Unmatch Combination of Millimeter Wave Radar-Multipurpose Camera Unit/Multipurpose Camera Unit Variant Incomplete")]
+    [Manufacturer(Manufacturers.Honda, "Unmatch Combination of Millimeter Wave Radar-Multipurpose Camera Unit/Multipurpose Camera Unit Variant Incomplete")]
+    U1387 = 0xD387,
     /// <summary>
     /// Implausible TPS Signal Received
     /// </summary>
@@ -87109,6 +87697,12 @@ public enum DTC
     /// </summary>
     [Category(Categories.NetworkCommunication), Description("Implausible Data Received From Integrated Center Stack")]
     U1480 = 0xD480,
+    /// <summary>
+    /// LKAS Malfunction
+    /// </summary>
+    [Category(Categories.NetworkCommunication), Description("LKAS Malfunction")]
+    [Manufacturer(Manufacturers.Honda, "LKAS Malfunction")]
+    U1483 = 0xD483,
     /// <summary>
     /// Implausible Data Received From RF Hub
     /// </summary>
